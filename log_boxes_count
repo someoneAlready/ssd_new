@@ -1,0 +1,667 @@
+Using mxnet as:
+<module 'mxnet' from '/media/cgangee/OTHERS/incubator-mxnet/python/mxnet/__init__.pyc'>
+Warning: using pre-installed version of mxnet may cause unexpected error...
+(export MXNET_EXAMPLE_SSD_DISABLE_PRE_INSTALLED=1) to prevent loading pre-installed mxnet.
+args.network = mobilenet
+args.train_path = /home/cgangee/code/ssd/data/psdb/val.rec
+args.num_class = 4
+args.batch_size = 32
+args.data_shape = 300
+args.mean_r = 123
+args.mean_g = 117
+args.mean_b = 104
+args.resume = -1
+args.finetune = 1
+args.pretrained = /home/cgangee/code/ssd/model/mobilenet-ssd-512
+args.epoch = 1
+args.prefix = /home/cgangee/code/ssd/output/psdbMobileNet/ssd
+ctx = [cpu(0)]
+args.begin_epoch = 0
+args.end_epoch = 240
+args.frequent = 20
+args.learning_rate = 0.004
+args.momentum = 0.9
+args.weight_decay = 0.0005
+args.lr_refactor_step = 80, 160
+args.lr_refactor_ratio = 0.1
+ctx = [cpu(0)]
+args.val_path = /home/cgangee/code/ssd/data/psdb/val.rec
+args.min_neg_samples = 0
+args.num_example = 16551
+class_names = ['pedestrian', 'head', 'head-shouler', 'upper-body']
+args.label_width = 1200
+args.freeze_pattern = ^(conv1_|conv2_).*
+args.monitor = 0
+args.monitor_pattern = .*
+args.log_file = train.log
+args.nms_thresh = 0.45
+args.nms_topk = 400
+args.force_nms = False
+args.overlap_thresh = 0.5
+args.use_difficult = False
+args.use_voc07_metric = True
+args.optimizer = sgd
+args.tensorboard = False
+{'shuffle': False, 'max_crop_overlaps': [1.0, 1.0, 1.0, 1.0, 1.0], 'max_crop_sample_coverages': [1.0, 1.0, 1.0, 1.0, 1.0], 'max_random_hue': 18, 'seed': 233, 'random_hue_prob': 0.5, 'preprocess_threads': 48, 'max_random_contrast': 0.5, 'max_random_saturation': 32, 'rand_mirror_prob': 0.0, 'rand_crop_prob': 0.0, 'max_pad_scale': 4.0, 'random_contrast_prob': 0.5, 'min_crop_scales': [0.3, 0.3, 0.3, 0.3, 0.3], 'rand_pad_prob': 0.0, 'min_crop_overlaps': [0.1, 0.3, 0.5, 0.7, 0.9], 'max_crop_object_coverages': [1.0, 1.0, 1.0, 1.0, 1.0], 'max_random_illumination': 32, 'max_crop_trials': [25, 25, 25, 25, 25], 'random_saturation_prob': 0.5, 'crop_emit_mode': 'center', 'min_crop_object_coverages': [0.0, 0.0, 0.0, 0.0, 0.0], 'min_crop_aspect_ratios': [0.5, 0.5, 0.5, 0.5, 0.5], 'inter_method': 10, 'random_illumination_prob': 0.5, 'fill_value': 127, 'max_crop_scales': [1.0, 1.0, 1.0, 1.0, 1.0], 'min_crop_sample_coverages': [0.0, 0.0, 0.0, 0.0, 0.0], 'num_crop_sampler': 5, 'max_crop_aspect_ratios': [2.0, 2.0, 2.0, 2.0, 2.0]}
+[15:46:44] src/io/iter_image_det_recordio.cc:281: ImageDetRecordIOParser: /home/cgangee/code/ssd/data/psdb/val.rec, use 7 threads for decoding..
+[15:46:45] src/io/iter_image_det_recordio.cc:334: ImageDetRecordIOParser: /home/cgangee/code/ssd/data/psdb/val.rec, label padding width: 1200
+{'random_contrast_prob': 0.0, 'preprocess_threads': 32, 'shuffle': False, 'max_random_contrast': 0.5, 'max_random_illumination': 32, 'random_illumination_prob': 0.0, 'max_random_saturation': 32, 'fill_value': 127, 'rand_mirror_prob': 0, 'num_crop_sampler': 0, 'max_random_hue': 18, 'seed': 0, 'random_saturation_prob': 0.0, 'rand_crop_prob': 0.0, 'random_hue_prob': 0.0, 'max_pad_scale': 1.0, 'rand_pad_prob': 0.0}
+[15:46:47] src/io/iter_image_det_recordio.cc:281: ImageDetRecordIOParser: /home/cgangee/code/ssd/data/psdb/val.rec, use 7 threads for decoding..
+[15:46:47] src/io/iter_image_det_recordio.cc:334: ImageDetRecordIOParser: /home/cgangee/code/ssd/data/psdb/val.rec, label padding width: 1200
+INFO:root:Start finetuning with (cpu(0)) from epoch 1
+[15:46:48] src/nnvm/legacy_json_util.cc:190: Loading symbol saved by previous version v0.12.0. Attempting to upgrade...
+[15:46:48] src/nnvm/legacy_json_util.cc:198: Symbol successfully upgraded!
+INFO:root:Removed multi_feat_5_conv_3x3_relu_cls_pred_conv_bias
+INFO:root:Removed multi_feat_3_conv_3x3_relu_cls_pred_conv_bias
+INFO:root:Removed multi_feat_5_conv_3x3_relu_cls_pred_conv_weight
+INFO:root:Removed conv_12_relu_cls_pred_conv_bias
+INFO:root:Removed multi_feat_3_conv_3x3_relu_cls_pred_conv_weight
+INFO:root:Removed multi_feat_2_conv_3x3_relu_cls_pred_conv_weight
+INFO:root:Removed multi_feat_2_conv_3x3_relu_cls_pred_conv_bias
+INFO:root:Removed multi_feat_4_conv_3x3_relu_cls_pred_conv_weight
+INFO:root:Removed multi_feat_6_conv_3x3_relu_cls_pred_conv_weight
+INFO:root:Removed conv_12_relu_cls_pred_conv_weight
+INFO:root:Removed conv_14_relu_cls_pred_conv_bias
+INFO:root:Removed multi_feat_4_conv_3x3_relu_cls_pred_conv_bias
+INFO:root:Removed multi_feat_6_conv_3x3_relu_cls_pred_conv_bias
+INFO:root:Removed conv_14_relu_cls_pred_conv_weight
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+39
+52
+109
+115
+129
+162
+179
+187
+192
+208
+224
+210
+232
+207
+294
+310
+324
+335
+342
+337
+350
+325
+339
+305
+321
+297
+296
+270
+267
+246
+181
+178
+192
+179
+236
+252
+272
+305
+296
+333
+303
+337
+355
+362
+365
+380
+365
+380
+419
+402
+400
+398
+366
+385
+405
+392
+384
+257
+274
+257
+339
+351
+397
+350
+381
+379
+393
+380
+372
+370
+448
+419
+439
+414
+456
+424
+434
+402
+461
+436
+410
+423
+421
+401
+418
+394
+408
+399
+455
+397
+359
+392
+340
+336
+363
+332
+358
+305
+298
+279
+272
+292
+297
+321
+327
+325
+343
+316
+354
+339
+346
+356
+388
+354
+391
+366
+397
+407
+350
+389
+389
+441
+400
+401
+426
+422
+490
+468
+462
+463
+558
+451
+542
+474
+456
+521
+493
+551
+528
+525
+506
+493
+504
+485
+493
+529
+506
+486
+507
+509
+349
+349
+369
+353
+419
+361
+388
+337
+363
+367
+387
+448
+413
+431
+460
+403
+470
+449
+467
+411
+466
+447
+415
+504
+452
+490
+508
+483
+524
+546
+462
+530
+502
+461
+479
+465
+479
+469
+513
+516
+478
+570
+577
+589
+558
+554
+563
+566
+551
+543
+559
+565
+548
+572
+548
+531
+599
+558
+561
+554
+573
+538
+573
+519
+531
+569
+558
+523
+527
+538
+538
+500
+540
+487
+502
+458
+478
+427
+447
+493
+429
+484
+479
+444
+472
+481
+513
+491
+496
+533
+557
+534
+553
+543
+525
+508
+504
+522
+509
+529
+510
+532
+571
+510
+510
+558
+591
+616
+548
+575
+550
+541
+551
+548
+548
+544
+567
+511
+557
+539
+557
+557
+533
+546
+513
+525
+545
+570
+555
+531
+523
+547
+421
+379
+417
+390
+444
+417
+399
+497
+480
+458
+443
+456
+471
+440
+482
+445
+504
+465
+493
+526
+514
+484
+507
+497
+484
+518
+508
+550
+509
+511
+492
+531
+527
+556
+557
+509
+581
+583
+598
+674
+642
+622
+601
+616
+670
+695
+656
+687
+656
+661
+602
+602
+670
+666
+694
+661
+662
+698
+735
+684
+723
+700
+692
+765
+702
+718
+704
+723
+767
+765
+782
+765
+782
+823
+795
+790
+859
+849
+898
+916
+964
+945
+954
+920
+965
+946
+977
+976
+992
+1007
+998
+1062
+1017
+1021
+1052
+1100
+1068
+1104
+1103
+1083
+1092
+1255
+1305
+1282
+1303
+1315
+1374
+1371
+1334
+1382
+1339
+1389
+1395
+1379
+1412
+1414
+1421
+1424
+1473
+1418
+1467
+1457
+1477
+1479
+1492
+1518
+1481
+1575
+1513
+1400
+1416
+1431
+1428
+1452
+1446
+1433
+1451
+1454
+1458
+1469
+1473
+1459
+1485
+1492
+1487
+1495
+1501
+1502
+1494
+1532
+1530
+1526
+1532
+1543
+1543
+1546
+1557
+1568
+1570
+1577
+1579
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592
+1592

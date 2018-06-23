@@ -1,0 +1,400 @@
+digraph plot {
+	data [label="data
+null" fillcolor="#8dd3c7" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	conv1 [label="conv1
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv1_bn [label="conv1_bn
+BatchNorm" fillcolor="#bebada" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	relu1 [label="relu1
+Activation" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv2_1_expand [label="conv2_1_expand
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv2_1_expand_bn [label="conv2_1_expand_bn
+BatchNorm" fillcolor="#bebada" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	relu2_1_expand [label="relu2_1_expand
+Activation" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv2_1_dwise [label="conv2_1_dwise
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv2_1_dwise_bn [label="conv2_1_dwise_bn
+BatchNorm" fillcolor="#bebada" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	relu2_1_dwise [label="relu2_1_dwise
+Activation" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv2_1_linear [label="conv2_1_linear
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv2_1_linear_bn [label="conv2_1_linear_bn
+BatchNorm" fillcolor="#bebada" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv2_2_expand [label="conv2_2_expand
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv2_2_expand_bn [label="conv2_2_expand_bn
+BatchNorm" fillcolor="#bebada" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	relu2_2_expand [label="relu2_2_expand
+Activation" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv2_2_dwise [label="conv2_2_dwise
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv2_2_dwise_bn [label="conv2_2_dwise_bn
+BatchNorm" fillcolor="#bebada" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	relu2_2_dwise [label="relu2_2_dwise
+Activation" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv2_2_linear [label="conv2_2_linear
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv2_2_linear_bn [label="conv2_2_linear_bn
+BatchNorm" fillcolor="#bebada" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv3_1_expand [label="conv3_1_expand
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv3_1_expand_bn [label="conv3_1_expand_bn
+BatchNorm" fillcolor="#bebada" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	relu3_1_expand [label="relu3_1_expand
+Activation" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv3_1_dwise [label="conv3_1_dwise
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv3_1_dwise_bn [label="conv3_1_dwise_bn
+BatchNorm" fillcolor="#bebada" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	relu3_1_dwise [label="relu3_1_dwise
+Activation" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv3_1_linear [label="conv3_1_linear
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv3_1_linear_bn [label="conv3_1_linear_bn
+BatchNorm" fillcolor="#bebada" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	block_3_1 [label="block_3_1
+broadcast_add" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv3_2_expand [label="conv3_2_expand
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv3_2_expand_bn [label="conv3_2_expand_bn
+BatchNorm" fillcolor="#bebada" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	relu3_2_expand [label="relu3_2_expand
+Activation" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv3_2_dwise [label="conv3_2_dwise
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv3_2_dwise_bn [label="conv3_2_dwise_bn
+BatchNorm" fillcolor="#bebada" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	relu3_2_dwise [label="relu3_2_dwise
+Activation" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv3_2_linear [label="conv3_2_linear
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv3_2_linear_bn [label="conv3_2_linear_bn
+BatchNorm" fillcolor="#bebada" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv4_1_expand [label="conv4_1_expand
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv4_1_expand_bn [label="conv4_1_expand_bn
+BatchNorm" fillcolor="#bebada" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	relu4_1_expand [label="relu4_1_expand
+Activation" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv4_1_dwise [label="conv4_1_dwise
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv4_1_dwise_bn [label="conv4_1_dwise_bn
+BatchNorm" fillcolor="#bebada" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	relu4_1_dwise [label="relu4_1_dwise
+Activation" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv4_1_linear [label="conv4_1_linear
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv4_1_linear_bn [label="conv4_1_linear_bn
+BatchNorm" fillcolor="#bebada" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	block_4_1 [label="block_4_1
+broadcast_add" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv4_2_expand [label="conv4_2_expand
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv4_2_expand_bn [label="conv4_2_expand_bn
+BatchNorm" fillcolor="#bebada" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	relu4_2_expand [label="relu4_2_expand
+Activation" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv4_2_dwise [label="conv4_2_dwise
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv4_2_dwise_bn [label="conv4_2_dwise_bn
+BatchNorm" fillcolor="#bebada" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	relu4_2_dwise [label="relu4_2_dwise
+Activation" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv4_2_linear [label="conv4_2_linear
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv4_2_linear_bn [label="conv4_2_linear_bn
+BatchNorm" fillcolor="#bebada" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	block_4_2 [label="block_4_2
+broadcast_add" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	block_4_2_cls_pred_conv [label="block_4_2_cls_pred_conv
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	transpose1 [label="transpose1
+transpose" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	flatten1 [label="flatten1
+Flatten" fillcolor="#fdb462" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	"feat1-exp-conv2d" [label="feat1-exp-conv2d
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	"feat1-exp-batchnorm" [label="feat1-exp-batchnorm
+BatchNorm" fillcolor="#bebada" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	"feat1-exp-relu6" [label="feat1-exp-relu6
+clip" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	"feat1-depthwise-conv2d" [label="feat1-depthwise-conv2d
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	"feat1-depthwise-batchnorm" [label="feat1-depthwise-batchnorm
+BatchNorm" fillcolor="#bebada" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	"feat1-depthwise-relu6" [label="feat1-depthwise-relu6
+clip" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	"feat1-linear-conv2d" [label="feat1-linear-conv2d
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	"feat1-linear-batchnorm" [label="feat1-linear-batchnorm
+BatchNorm" fillcolor="#bebada" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	"feat1-linear-batchnorm_cls_pred_conv" [label="feat1-linear-batchnorm_cls_pred_conv
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	transpose3 [label="transpose3
+transpose" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	flatten4 [label="flatten4
+Flatten" fillcolor="#fdb462" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	"feat2-exp-conv2d" [label="feat2-exp-conv2d
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	"feat2-exp-batchnorm" [label="feat2-exp-batchnorm
+BatchNorm" fillcolor="#bebada" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	"feat2-exp-relu6" [label="feat2-exp-relu6
+clip" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	"feat2-depthwise-conv2d" [label="feat2-depthwise-conv2d
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	"feat2-depthwise-batchnorm" [label="feat2-depthwise-batchnorm
+BatchNorm" fillcolor="#bebada" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	"feat2-depthwise-relu6" [label="feat2-depthwise-relu6
+clip" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	"feat2-linear-conv2d" [label="feat2-linear-conv2d
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	"feat2-linear-batchnorm" [label="feat2-linear-batchnorm
+BatchNorm" fillcolor="#bebada" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	"feat2-linear-batchnorm_cls_pred_conv" [label="feat2-linear-batchnorm_cls_pred_conv
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	transpose5 [label="transpose5
+transpose" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	flatten7 [label="flatten7
+Flatten" fillcolor="#fdb462" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	"feat3-exp-conv2d" [label="feat3-exp-conv2d
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	"feat3-exp-batchnorm" [label="feat3-exp-batchnorm
+BatchNorm" fillcolor="#bebada" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	"feat3-exp-relu6" [label="feat3-exp-relu6
+clip" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	"feat3-depthwise-conv2d" [label="feat3-depthwise-conv2d
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	"feat3-depthwise-batchnorm" [label="feat3-depthwise-batchnorm
+BatchNorm" fillcolor="#bebada" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	"feat3-depthwise-relu6" [label="feat3-depthwise-relu6
+clip" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	"feat3-linear-conv2d" [label="feat3-linear-conv2d
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	"feat3-linear-batchnorm" [label="feat3-linear-batchnorm
+BatchNorm" fillcolor="#bebada" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	"feat3-linear-batchnorm_cls_pred_conv" [label="feat3-linear-batchnorm_cls_pred_conv
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	transpose7 [label="transpose7
+transpose" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	flatten10 [label="flatten10
+Flatten" fillcolor="#fdb462" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	concat0 [label="concat0
+Concat" fillcolor="#fdb462" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	reshape0 [label="reshape0
+Reshape" fillcolor="#fdb462" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	multibox_cls_pred [label="multibox_cls_pred
+transpose" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	block_4_2_anchors [label="block_4_2_anchors
+_contrib_MultiBoxPrior" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	flatten2 [label="flatten2
+Flatten" fillcolor="#fdb462" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	"feat1-linear-batchnorm_anchors" [label="feat1-linear-batchnorm_anchors
+_contrib_MultiBoxPrior" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	flatten5 [label="flatten5
+Flatten" fillcolor="#fdb462" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	"feat2-linear-batchnorm_anchors" [label="feat2-linear-batchnorm_anchors
+_contrib_MultiBoxPrior" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	flatten8 [label="flatten8
+Flatten" fillcolor="#fdb462" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	"feat3-linear-batchnorm_anchors" [label="feat3-linear-batchnorm_anchors
+_contrib_MultiBoxPrior" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	flatten11 [label="flatten11
+Flatten" fillcolor="#fdb462" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	concat1 [label="concat1
+Concat" fillcolor="#fdb462" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	multibox_anchors [label="multibox_anchors
+Reshape" fillcolor="#fdb462" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	label [label="label
+null" fillcolor="#8dd3c7" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	multibox_target [label="multibox_target
+_contrib_MultiBoxTarget" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	cls_prob [label="cls_prob
+SoftmaxOutput" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	block_4_2_loc_pred_conv [label="block_4_2_loc_pred_conv
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	transpose0 [label="transpose0
+transpose" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	flatten0 [label="flatten0
+Flatten" fillcolor="#fdb462" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	"feat1-linear-batchnorm_loc_pred_conv" [label="feat1-linear-batchnorm_loc_pred_conv
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	transpose2 [label="transpose2
+transpose" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	flatten3 [label="flatten3
+Flatten" fillcolor="#fdb462" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	"feat2-linear-batchnorm_loc_pred_conv" [label="feat2-linear-batchnorm_loc_pred_conv
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	transpose4 [label="transpose4
+transpose" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	flatten6 [label="flatten6
+Flatten" fillcolor="#fdb462" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	"feat3-linear-batchnorm_loc_pred_conv" [label="feat3-linear-batchnorm_loc_pred_conv
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	transpose6 [label="transpose6
+transpose" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	flatten9 [label="flatten9
+Flatten" fillcolor="#fdb462" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	multibox_loc_pred [label="multibox_loc_pred
+Concat" fillcolor="#fdb462" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	_minus0 [label="_minus0
+elemwise_sub" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	_mul0 [label="_mul0
+elemwise_mul" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	loc_loss_ [label="loc_loss_
+smooth_l1" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	loc_loss [label="loc_loss
+MakeLoss" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	cls_label [label="cls_label
+MakeLoss" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	detection [label="detection
+_contrib_MultiBoxDetection" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	det_out [label="det_out
+MakeLoss" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv1 -> data [arrowtail=open dir=back]
+	conv1_bn -> conv1 [arrowtail=open dir=back]
+	relu1 -> conv1_bn [arrowtail=open dir=back]
+	conv2_1_expand -> relu1 [arrowtail=open dir=back]
+	conv2_1_expand_bn -> conv2_1_expand [arrowtail=open dir=back]
+	relu2_1_expand -> conv2_1_expand_bn [arrowtail=open dir=back]
+	conv2_1_dwise -> relu2_1_expand [arrowtail=open dir=back]
+	conv2_1_dwise_bn -> conv2_1_dwise [arrowtail=open dir=back]
+	relu2_1_dwise -> conv2_1_dwise_bn [arrowtail=open dir=back]
+	conv2_1_linear -> relu2_1_dwise [arrowtail=open dir=back]
+	conv2_1_linear_bn -> conv2_1_linear [arrowtail=open dir=back]
+	conv2_2_expand -> conv2_1_linear_bn [arrowtail=open dir=back]
+	conv2_2_expand_bn -> conv2_2_expand [arrowtail=open dir=back]
+	relu2_2_expand -> conv2_2_expand_bn [arrowtail=open dir=back]
+	conv2_2_dwise -> relu2_2_expand [arrowtail=open dir=back]
+	conv2_2_dwise_bn -> conv2_2_dwise [arrowtail=open dir=back]
+	relu2_2_dwise -> conv2_2_dwise_bn [arrowtail=open dir=back]
+	conv2_2_linear -> relu2_2_dwise [arrowtail=open dir=back]
+	conv2_2_linear_bn -> conv2_2_linear [arrowtail=open dir=back]
+	conv3_1_expand -> conv2_2_linear_bn [arrowtail=open dir=back]
+	conv3_1_expand_bn -> conv3_1_expand [arrowtail=open dir=back]
+	relu3_1_expand -> conv3_1_expand_bn [arrowtail=open dir=back]
+	conv3_1_dwise -> relu3_1_expand [arrowtail=open dir=back]
+	conv3_1_dwise_bn -> conv3_1_dwise [arrowtail=open dir=back]
+	relu3_1_dwise -> conv3_1_dwise_bn [arrowtail=open dir=back]
+	conv3_1_linear -> relu3_1_dwise [arrowtail=open dir=back]
+	conv3_1_linear_bn -> conv3_1_linear [arrowtail=open dir=back]
+	block_3_1 -> conv2_2_linear_bn [arrowtail=open dir=back]
+	block_3_1 -> conv3_1_linear_bn [arrowtail=open dir=back]
+	conv3_2_expand -> block_3_1 [arrowtail=open dir=back]
+	conv3_2_expand_bn -> conv3_2_expand [arrowtail=open dir=back]
+	relu3_2_expand -> conv3_2_expand_bn [arrowtail=open dir=back]
+	conv3_2_dwise -> relu3_2_expand [arrowtail=open dir=back]
+	conv3_2_dwise_bn -> conv3_2_dwise [arrowtail=open dir=back]
+	relu3_2_dwise -> conv3_2_dwise_bn [arrowtail=open dir=back]
+	conv3_2_linear -> relu3_2_dwise [arrowtail=open dir=back]
+	conv3_2_linear_bn -> conv3_2_linear [arrowtail=open dir=back]
+	conv4_1_expand -> conv3_2_linear_bn [arrowtail=open dir=back]
+	conv4_1_expand_bn -> conv4_1_expand [arrowtail=open dir=back]
+	relu4_1_expand -> conv4_1_expand_bn [arrowtail=open dir=back]
+	conv4_1_dwise -> relu4_1_expand [arrowtail=open dir=back]
+	conv4_1_dwise_bn -> conv4_1_dwise [arrowtail=open dir=back]
+	relu4_1_dwise -> conv4_1_dwise_bn [arrowtail=open dir=back]
+	conv4_1_linear -> relu4_1_dwise [arrowtail=open dir=back]
+	conv4_1_linear_bn -> conv4_1_linear [arrowtail=open dir=back]
+	block_4_1 -> conv3_2_linear_bn [arrowtail=open dir=back]
+	block_4_1 -> conv4_1_linear_bn [arrowtail=open dir=back]
+	conv4_2_expand -> block_4_1 [arrowtail=open dir=back]
+	conv4_2_expand_bn -> conv4_2_expand [arrowtail=open dir=back]
+	relu4_2_expand -> conv4_2_expand_bn [arrowtail=open dir=back]
+	conv4_2_dwise -> relu4_2_expand [arrowtail=open dir=back]
+	conv4_2_dwise_bn -> conv4_2_dwise [arrowtail=open dir=back]
+	relu4_2_dwise -> conv4_2_dwise_bn [arrowtail=open dir=back]
+	conv4_2_linear -> relu4_2_dwise [arrowtail=open dir=back]
+	conv4_2_linear_bn -> conv4_2_linear [arrowtail=open dir=back]
+	block_4_2 -> block_4_1 [arrowtail=open dir=back]
+	block_4_2 -> conv4_2_linear_bn [arrowtail=open dir=back]
+	block_4_2_cls_pred_conv -> block_4_2 [arrowtail=open dir=back]
+	transpose1 -> block_4_2_cls_pred_conv [arrowtail=open dir=back]
+	flatten1 -> transpose1 [arrowtail=open dir=back]
+	"feat1-exp-conv2d" -> block_4_2 [arrowtail=open dir=back]
+	"feat1-exp-batchnorm" -> "feat1-exp-conv2d" [arrowtail=open dir=back]
+	"feat1-exp-relu6" -> "feat1-exp-batchnorm" [arrowtail=open dir=back]
+	"feat1-depthwise-conv2d" -> "feat1-exp-relu6" [arrowtail=open dir=back]
+	"feat1-depthwise-batchnorm" -> "feat1-depthwise-conv2d" [arrowtail=open dir=back]
+	"feat1-depthwise-relu6" -> "feat1-depthwise-batchnorm" [arrowtail=open dir=back]
+	"feat1-linear-conv2d" -> "feat1-depthwise-relu6" [arrowtail=open dir=back]
+	"feat1-linear-batchnorm" -> "feat1-linear-conv2d" [arrowtail=open dir=back]
+	"feat1-linear-batchnorm_cls_pred_conv" -> "feat1-linear-batchnorm" [arrowtail=open dir=back]
+	transpose3 -> "feat1-linear-batchnorm_cls_pred_conv" [arrowtail=open dir=back]
+	flatten4 -> transpose3 [arrowtail=open dir=back]
+	"feat2-exp-conv2d" -> "feat1-linear-batchnorm" [arrowtail=open dir=back]
+	"feat2-exp-batchnorm" -> "feat2-exp-conv2d" [arrowtail=open dir=back]
+	"feat2-exp-relu6" -> "feat2-exp-batchnorm" [arrowtail=open dir=back]
+	"feat2-depthwise-conv2d" -> "feat2-exp-relu6" [arrowtail=open dir=back]
+	"feat2-depthwise-batchnorm" -> "feat2-depthwise-conv2d" [arrowtail=open dir=back]
+	"feat2-depthwise-relu6" -> "feat2-depthwise-batchnorm" [arrowtail=open dir=back]
+	"feat2-linear-conv2d" -> "feat2-depthwise-relu6" [arrowtail=open dir=back]
+	"feat2-linear-batchnorm" -> "feat2-linear-conv2d" [arrowtail=open dir=back]
+	"feat2-linear-batchnorm_cls_pred_conv" -> "feat2-linear-batchnorm" [arrowtail=open dir=back]
+	transpose5 -> "feat2-linear-batchnorm_cls_pred_conv" [arrowtail=open dir=back]
+	flatten7 -> transpose5 [arrowtail=open dir=back]
+	"feat3-exp-conv2d" -> "feat2-linear-batchnorm" [arrowtail=open dir=back]
+	"feat3-exp-batchnorm" -> "feat3-exp-conv2d" [arrowtail=open dir=back]
+	"feat3-exp-relu6" -> "feat3-exp-batchnorm" [arrowtail=open dir=back]
+	"feat3-depthwise-conv2d" -> "feat3-exp-relu6" [arrowtail=open dir=back]
+	"feat3-depthwise-batchnorm" -> "feat3-depthwise-conv2d" [arrowtail=open dir=back]
+	"feat3-depthwise-relu6" -> "feat3-depthwise-batchnorm" [arrowtail=open dir=back]
+	"feat3-linear-conv2d" -> "feat3-depthwise-relu6" [arrowtail=open dir=back]
+	"feat3-linear-batchnorm" -> "feat3-linear-conv2d" [arrowtail=open dir=back]
+	"feat3-linear-batchnorm_cls_pred_conv" -> "feat3-linear-batchnorm" [arrowtail=open dir=back]
+	transpose7 -> "feat3-linear-batchnorm_cls_pred_conv" [arrowtail=open dir=back]
+	flatten10 -> transpose7 [arrowtail=open dir=back]
+	concat0 -> flatten1 [arrowtail=open dir=back]
+	concat0 -> flatten4 [arrowtail=open dir=back]
+	concat0 -> flatten7 [arrowtail=open dir=back]
+	concat0 -> flatten10 [arrowtail=open dir=back]
+	reshape0 -> concat0 [arrowtail=open dir=back]
+	multibox_cls_pred -> reshape0 [arrowtail=open dir=back]
+	block_4_2_anchors -> block_4_2 [arrowtail=open dir=back]
+	flatten2 -> block_4_2_anchors [arrowtail=open dir=back]
+	"feat1-linear-batchnorm_anchors" -> "feat1-linear-batchnorm" [arrowtail=open dir=back]
+	flatten5 -> "feat1-linear-batchnorm_anchors" [arrowtail=open dir=back]
+	"feat2-linear-batchnorm_anchors" -> "feat2-linear-batchnorm" [arrowtail=open dir=back]
+	flatten8 -> "feat2-linear-batchnorm_anchors" [arrowtail=open dir=back]
+	"feat3-linear-batchnorm_anchors" -> "feat3-linear-batchnorm" [arrowtail=open dir=back]
+	flatten11 -> "feat3-linear-batchnorm_anchors" [arrowtail=open dir=back]
+	concat1 -> flatten2 [arrowtail=open dir=back]
+	concat1 -> flatten5 [arrowtail=open dir=back]
+	concat1 -> flatten8 [arrowtail=open dir=back]
+	concat1 -> flatten11 [arrowtail=open dir=back]
+	multibox_anchors -> concat1 [arrowtail=open dir=back]
+	multibox_target -> multibox_anchors [arrowtail=open dir=back]
+	multibox_target -> label [arrowtail=open dir=back]
+	multibox_target -> multibox_cls_pred [arrowtail=open dir=back]
+	cls_prob -> multibox_cls_pred [arrowtail=open dir=back]
+	cls_prob -> multibox_target [arrowtail=open dir=back]
+	block_4_2_loc_pred_conv -> block_4_2 [arrowtail=open dir=back]
+	transpose0 -> block_4_2_loc_pred_conv [arrowtail=open dir=back]
+	flatten0 -> transpose0 [arrowtail=open dir=back]
+	"feat1-linear-batchnorm_loc_pred_conv" -> "feat1-linear-batchnorm" [arrowtail=open dir=back]
+	transpose2 -> "feat1-linear-batchnorm_loc_pred_conv" [arrowtail=open dir=back]
+	flatten3 -> transpose2 [arrowtail=open dir=back]
+	"feat2-linear-batchnorm_loc_pred_conv" -> "feat2-linear-batchnorm" [arrowtail=open dir=back]
+	transpose4 -> "feat2-linear-batchnorm_loc_pred_conv" [arrowtail=open dir=back]
+	flatten6 -> transpose4 [arrowtail=open dir=back]
+	"feat3-linear-batchnorm_loc_pred_conv" -> "feat3-linear-batchnorm" [arrowtail=open dir=back]
+	transpose6 -> "feat3-linear-batchnorm_loc_pred_conv" [arrowtail=open dir=back]
+	flatten9 -> transpose6 [arrowtail=open dir=back]
+	multibox_loc_pred -> flatten0 [arrowtail=open dir=back]
+	multibox_loc_pred -> flatten3 [arrowtail=open dir=back]
+	multibox_loc_pred -> flatten6 [arrowtail=open dir=back]
+	multibox_loc_pred -> flatten9 [arrowtail=open dir=back]
+	_minus0 -> multibox_loc_pred [arrowtail=open dir=back]
+	_minus0 -> multibox_target [arrowtail=open dir=back]
+	_mul0 -> multibox_target [arrowtail=open dir=back]
+	_mul0 -> _minus0 [arrowtail=open dir=back]
+	loc_loss_ -> _mul0 [arrowtail=open dir=back]
+	loc_loss -> loc_loss_ [arrowtail=open dir=back]
+	cls_label -> multibox_target [arrowtail=open dir=back]
+	detection -> cls_prob [arrowtail=open dir=back]
+	detection -> multibox_loc_pred [arrowtail=open dir=back]
+	detection -> multibox_anchors [arrowtail=open dir=back]
+	det_out -> detection [arrowtail=open dir=back]
+}

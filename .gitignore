@@ -1,0 +1,7 @@
+# User defined
+data/*
+model/*
+cache/*
+data/*
+*.params
+model/*

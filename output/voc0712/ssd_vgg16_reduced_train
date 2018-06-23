@@ -1,0 +1,379 @@
+digraph plot {
+	relu4_3_scale [label="relu4_3_scale
+null" fillcolor="#8dd3c7" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	data [label="data
+null" fillcolor="#8dd3c7" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	conv1_1 [label="conv1_1
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	relu1_1 [label="relu1_1
+Activation" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv1_2 [label="conv1_2
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	relu1_2 [label="relu1_2
+Activation" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	pool1 [label="pool1
+Pooling" fillcolor="#80b1d3" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv2_1 [label="conv2_1
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	relu2_1 [label="relu2_1
+Activation" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv2_2 [label="conv2_2
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	relu2_2 [label="relu2_2
+Activation" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	pool2 [label="pool2
+Pooling" fillcolor="#80b1d3" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv3_1 [label="conv3_1
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	relu3_1 [label="relu3_1
+Activation" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv3_2 [label="conv3_2
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	relu3_2 [label="relu3_2
+Activation" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv3_3 [label="conv3_3
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	relu3_3 [label="relu3_3
+Activation" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	pool3 [label="pool3
+Pooling" fillcolor="#80b1d3" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv4_1 [label="conv4_1
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	relu4_1 [label="relu4_1
+Activation" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv4_2 [label="conv4_2
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	relu4_2 [label="relu4_2
+Activation" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv4_3 [label="conv4_3
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	relu4_3 [label="relu4_3
+Activation" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	relu4_3_norm [label="relu4_3_norm
+L2Normalization" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	broadcast_mul0 [label="broadcast_mul0
+broadcast_mul" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	relu4_3_cls_pred_conv [label="relu4_3_cls_pred_conv
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	transpose1 [label="transpose1
+transpose" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	flatten2 [label="flatten2
+Flatten" fillcolor="#fdb462" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	pool4 [label="pool4
+Pooling" fillcolor="#80b1d3" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv5_1 [label="conv5_1
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	relu5_1 [label="relu5_1
+Activation" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv5_2 [label="conv5_2
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	relu5_2 [label="relu5_2
+Activation" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv5_3 [label="conv5_3
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	relu5_3 [label="relu5_3
+Activation" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	pool5 [label="pool5
+Pooling" fillcolor="#80b1d3" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	fc6 [label="fc6
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	relu6 [label="relu6
+Activation" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	fc7 [label="fc7
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	relu7 [label="relu7
+Activation" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	relu7_cls_pred_conv [label="relu7_cls_pred_conv
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	transpose3 [label="transpose3
+transpose" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	flatten5 [label="flatten5
+Flatten" fillcolor="#fdb462" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	multi_feat_2_conv_1x1_conv [label="multi_feat_2_conv_1x1_conv
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	multi_feat_2_conv_1x1_relu [label="multi_feat_2_conv_1x1_relu
+Activation" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	multi_feat_2_conv_3x3_conv [label="multi_feat_2_conv_3x3_conv
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	multi_feat_2_conv_3x3_relu [label="multi_feat_2_conv_3x3_relu
+Activation" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	multi_feat_2_conv_3x3_relu_cls_pred_conv [label="multi_feat_2_conv_3x3_relu_cls_pred_conv
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	transpose5 [label="transpose5
+transpose" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	flatten8 [label="flatten8
+Flatten" fillcolor="#fdb462" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	multi_feat_3_conv_1x1_conv [label="multi_feat_3_conv_1x1_conv
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	multi_feat_3_conv_1x1_relu [label="multi_feat_3_conv_1x1_relu
+Activation" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	multi_feat_3_conv_3x3_conv [label="multi_feat_3_conv_3x3_conv
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	multi_feat_3_conv_3x3_relu [label="multi_feat_3_conv_3x3_relu
+Activation" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	multi_feat_3_conv_3x3_relu_cls_pred_conv [label="multi_feat_3_conv_3x3_relu_cls_pred_conv
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	transpose7 [label="transpose7
+transpose" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	flatten11 [label="flatten11
+Flatten" fillcolor="#fdb462" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	multi_feat_4_conv_1x1_conv [label="multi_feat_4_conv_1x1_conv
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	multi_feat_4_conv_1x1_relu [label="multi_feat_4_conv_1x1_relu
+Activation" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	multi_feat_4_conv_3x3_conv [label="multi_feat_4_conv_3x3_conv
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	multi_feat_4_conv_3x3_relu [label="multi_feat_4_conv_3x3_relu
+Activation" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	multi_feat_4_conv_3x3_relu_cls_pred_conv [label="multi_feat_4_conv_3x3_relu_cls_pred_conv
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	transpose9 [label="transpose9
+transpose" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	flatten14 [label="flatten14
+Flatten" fillcolor="#fdb462" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	multi_feat_5_conv_1x1_conv [label="multi_feat_5_conv_1x1_conv
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	multi_feat_5_conv_1x1_relu [label="multi_feat_5_conv_1x1_relu
+Activation" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	multi_feat_5_conv_3x3_conv [label="multi_feat_5_conv_3x3_conv
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	multi_feat_5_conv_3x3_relu [label="multi_feat_5_conv_3x3_relu
+Activation" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	multi_feat_5_conv_3x3_relu_cls_pred_conv [label="multi_feat_5_conv_3x3_relu_cls_pred_conv
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	transpose11 [label="transpose11
+transpose" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	flatten17 [label="flatten17
+Flatten" fillcolor="#fdb462" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	concat0 [label="concat0
+Concat" fillcolor="#fdb462" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	reshape0 [label="reshape0
+Reshape" fillcolor="#fdb462" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	multibox_cls_pred [label="multibox_cls_pred
+transpose" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	relu4_3_anchors [label="relu4_3_anchors
+_contrib_MultiBoxPrior" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	flatten3 [label="flatten3
+Flatten" fillcolor="#fdb462" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	relu7_anchors [label="relu7_anchors
+_contrib_MultiBoxPrior" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	flatten6 [label="flatten6
+Flatten" fillcolor="#fdb462" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	multi_feat_2_conv_3x3_relu_anchors [label="multi_feat_2_conv_3x3_relu_anchors
+_contrib_MultiBoxPrior" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	flatten9 [label="flatten9
+Flatten" fillcolor="#fdb462" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	multi_feat_3_conv_3x3_relu_anchors [label="multi_feat_3_conv_3x3_relu_anchors
+_contrib_MultiBoxPrior" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	flatten12 [label="flatten12
+Flatten" fillcolor="#fdb462" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	multi_feat_4_conv_3x3_relu_anchors [label="multi_feat_4_conv_3x3_relu_anchors
+_contrib_MultiBoxPrior" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	flatten15 [label="flatten15
+Flatten" fillcolor="#fdb462" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	multi_feat_5_conv_3x3_relu_anchors [label="multi_feat_5_conv_3x3_relu_anchors
+_contrib_MultiBoxPrior" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	flatten18 [label="flatten18
+Flatten" fillcolor="#fdb462" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	concat1 [label="concat1
+Concat" fillcolor="#fdb462" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	multibox_anchors [label="multibox_anchors
+Reshape" fillcolor="#fdb462" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	label [label="label
+null" fillcolor="#8dd3c7" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	multibox_target [label="multibox_target
+_contrib_MultiBoxTargetCg" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	cls_prob [label="cls_prob
+SoftmaxOutput" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	relu4_3_loc_pred_conv [label="relu4_3_loc_pred_conv
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	transpose0 [label="transpose0
+transpose" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	flatten1 [label="flatten1
+Flatten" fillcolor="#fdb462" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	relu7_loc_pred_conv [label="relu7_loc_pred_conv
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	transpose2 [label="transpose2
+transpose" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	flatten4 [label="flatten4
+Flatten" fillcolor="#fdb462" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	multi_feat_2_conv_3x3_relu_loc_pred_conv [label="multi_feat_2_conv_3x3_relu_loc_pred_conv
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	transpose4 [label="transpose4
+transpose" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	flatten7 [label="flatten7
+Flatten" fillcolor="#fdb462" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	multi_feat_3_conv_3x3_relu_loc_pred_conv [label="multi_feat_3_conv_3x3_relu_loc_pred_conv
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	transpose6 [label="transpose6
+transpose" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	flatten10 [label="flatten10
+Flatten" fillcolor="#fdb462" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	multi_feat_4_conv_3x3_relu_loc_pred_conv [label="multi_feat_4_conv_3x3_relu_loc_pred_conv
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	transpose8 [label="transpose8
+transpose" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	flatten13 [label="flatten13
+Flatten" fillcolor="#fdb462" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	multi_feat_5_conv_3x3_relu_loc_pred_conv [label="multi_feat_5_conv_3x3_relu_loc_pred_conv
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	transpose10 [label="transpose10
+transpose" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	flatten16 [label="flatten16
+Flatten" fillcolor="#fdb462" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	multibox_loc_pred [label="multibox_loc_pred
+Concat" fillcolor="#fdb462" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	_minus0 [label="_minus0
+elemwise_sub" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	_mul0 [label="_mul0
+elemwise_mul" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	loc_loss_ [label="loc_loss_
+smooth_l1" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	loc_loss [label="loc_loss
+MakeLoss" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	cls_label [label="cls_label
+MakeLoss" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	detection [label="detection
+_contrib_MultiBoxDetection" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	det_out [label="det_out
+MakeLoss" fillcolor="#fccde5" fixedsize=false height=0.8034 shape=rect style=filled width=1.3]
+	conv1_1 -> data [arrowtail=open dir=back]
+	relu1_1 -> conv1_1 [arrowtail=open dir=back]
+	conv1_2 -> relu1_1 [arrowtail=open dir=back]
+	relu1_2 -> conv1_2 [arrowtail=open dir=back]
+	pool1 -> relu1_2 [arrowtail=open dir=back]
+	conv2_1 -> pool1 [arrowtail=open dir=back]
+	relu2_1 -> conv2_1 [arrowtail=open dir=back]
+	conv2_2 -> relu2_1 [arrowtail=open dir=back]
+	relu2_2 -> conv2_2 [arrowtail=open dir=back]
+	pool2 -> relu2_2 [arrowtail=open dir=back]
+	conv3_1 -> pool2 [arrowtail=open dir=back]
+	relu3_1 -> conv3_1 [arrowtail=open dir=back]
+	conv3_2 -> relu3_1 [arrowtail=open dir=back]
+	relu3_2 -> conv3_2 [arrowtail=open dir=back]
+	conv3_3 -> relu3_2 [arrowtail=open dir=back]
+	relu3_3 -> conv3_3 [arrowtail=open dir=back]
+	pool3 -> relu3_3 [arrowtail=open dir=back]
+	conv4_1 -> pool3 [arrowtail=open dir=back]
+	relu4_1 -> conv4_1 [arrowtail=open dir=back]
+	conv4_2 -> relu4_1 [arrowtail=open dir=back]
+	relu4_2 -> conv4_2 [arrowtail=open dir=back]
+	conv4_3 -> relu4_2 [arrowtail=open dir=back]
+	relu4_3 -> conv4_3 [arrowtail=open dir=back]
+	relu4_3_norm -> relu4_3 [arrowtail=open dir=back]
+	broadcast_mul0 -> relu4_3_scale [arrowtail=open dir=back]
+	broadcast_mul0 -> relu4_3_norm [arrowtail=open dir=back]
+	relu4_3_cls_pred_conv -> broadcast_mul0 [arrowtail=open dir=back]
+	transpose1 -> relu4_3_cls_pred_conv [arrowtail=open dir=back]
+	flatten2 -> transpose1 [arrowtail=open dir=back]
+	pool4 -> relu4_3 [arrowtail=open dir=back]
+	conv5_1 -> pool4 [arrowtail=open dir=back]
+	relu5_1 -> conv5_1 [arrowtail=open dir=back]
+	conv5_2 -> relu5_1 [arrowtail=open dir=back]
+	relu5_2 -> conv5_2 [arrowtail=open dir=back]
+	conv5_3 -> relu5_2 [arrowtail=open dir=back]
+	relu5_3 -> conv5_3 [arrowtail=open dir=back]
+	pool5 -> relu5_3 [arrowtail=open dir=back]
+	fc6 -> pool5 [arrowtail=open dir=back]
+	relu6 -> fc6 [arrowtail=open dir=back]
+	fc7 -> relu6 [arrowtail=open dir=back]
+	relu7 -> fc7 [arrowtail=open dir=back]
+	relu7_cls_pred_conv -> relu7 [arrowtail=open dir=back]
+	transpose3 -> relu7_cls_pred_conv [arrowtail=open dir=back]
+	flatten5 -> transpose3 [arrowtail=open dir=back]
+	multi_feat_2_conv_1x1_conv -> relu7 [arrowtail=open dir=back]
+	multi_feat_2_conv_1x1_relu -> multi_feat_2_conv_1x1_conv [arrowtail=open dir=back]
+	multi_feat_2_conv_3x3_conv -> multi_feat_2_conv_1x1_relu [arrowtail=open dir=back]
+	multi_feat_2_conv_3x3_relu -> multi_feat_2_conv_3x3_conv [arrowtail=open dir=back]
+	multi_feat_2_conv_3x3_relu_cls_pred_conv -> multi_feat_2_conv_3x3_relu [arrowtail=open dir=back]
+	transpose5 -> multi_feat_2_conv_3x3_relu_cls_pred_conv [arrowtail=open dir=back]
+	flatten8 -> transpose5 [arrowtail=open dir=back]
+	multi_feat_3_conv_1x1_conv -> multi_feat_2_conv_3x3_relu [arrowtail=open dir=back]
+	multi_feat_3_conv_1x1_relu -> multi_feat_3_conv_1x1_conv [arrowtail=open dir=back]
+	multi_feat_3_conv_3x3_conv -> multi_feat_3_conv_1x1_relu [arrowtail=open dir=back]
+	multi_feat_3_conv_3x3_relu -> multi_feat_3_conv_3x3_conv [arrowtail=open dir=back]
+	multi_feat_3_conv_3x3_relu_cls_pred_conv -> multi_feat_3_conv_3x3_relu [arrowtail=open dir=back]
+	transpose7 -> multi_feat_3_conv_3x3_relu_cls_pred_conv [arrowtail=open dir=back]
+	flatten11 -> transpose7 [arrowtail=open dir=back]
+	multi_feat_4_conv_1x1_conv -> multi_feat_3_conv_3x3_relu [arrowtail=open dir=back]
+	multi_feat_4_conv_1x1_relu -> multi_feat_4_conv_1x1_conv [arrowtail=open dir=back]
+	multi_feat_4_conv_3x3_conv -> multi_feat_4_conv_1x1_relu [arrowtail=open dir=back]
+	multi_feat_4_conv_3x3_relu -> multi_feat_4_conv_3x3_conv [arrowtail=open dir=back]
+	multi_feat_4_conv_3x3_relu_cls_pred_conv -> multi_feat_4_conv_3x3_relu [arrowtail=open dir=back]
+	transpose9 -> multi_feat_4_conv_3x3_relu_cls_pred_conv [arrowtail=open dir=back]
+	flatten14 -> transpose9 [arrowtail=open dir=back]
+	multi_feat_5_conv_1x1_conv -> multi_feat_4_conv_3x3_relu [arrowtail=open dir=back]
+	multi_feat_5_conv_1x1_relu -> multi_feat_5_conv_1x1_conv [arrowtail=open dir=back]
+	multi_feat_5_conv_3x3_conv -> multi_feat_5_conv_1x1_relu [arrowtail=open dir=back]
+	multi_feat_5_conv_3x3_relu -> multi_feat_5_conv_3x3_conv [arrowtail=open dir=back]
+	multi_feat_5_conv_3x3_relu_cls_pred_conv -> multi_feat_5_conv_3x3_relu [arrowtail=open dir=back]
+	transpose11 -> multi_feat_5_conv_3x3_relu_cls_pred_conv [arrowtail=open dir=back]
+	flatten17 -> transpose11 [arrowtail=open dir=back]
+	concat0 -> flatten2 [arrowtail=open dir=back]
+	concat0 -> flatten5 [arrowtail=open dir=back]
+	concat0 -> flatten8 [arrowtail=open dir=back]
+	concat0 -> flatten11 [arrowtail=open dir=back]
+	concat0 -> flatten14 [arrowtail=open dir=back]
+	concat0 -> flatten17 [arrowtail=open dir=back]
+	reshape0 -> concat0 [arrowtail=open dir=back]
+	multibox_cls_pred -> reshape0 [arrowtail=open dir=back]
+	relu4_3_anchors -> broadcast_mul0 [arrowtail=open dir=back]
+	flatten3 -> relu4_3_anchors [arrowtail=open dir=back]
+	relu7_anchors -> relu7 [arrowtail=open dir=back]
+	flatten6 -> relu7_anchors [arrowtail=open dir=back]
+	multi_feat_2_conv_3x3_relu_anchors -> multi_feat_2_conv_3x3_relu [arrowtail=open dir=back]
+	flatten9 -> multi_feat_2_conv_3x3_relu_anchors [arrowtail=open dir=back]
+	multi_feat_3_conv_3x3_relu_anchors -> multi_feat_3_conv_3x3_relu [arrowtail=open dir=back]
+	flatten12 -> multi_feat_3_conv_3x3_relu_anchors [arrowtail=open dir=back]
+	multi_feat_4_conv_3x3_relu_anchors -> multi_feat_4_conv_3x3_relu [arrowtail=open dir=back]
+	flatten15 -> multi_feat_4_conv_3x3_relu_anchors [arrowtail=open dir=back]
+	multi_feat_5_conv_3x3_relu_anchors -> multi_feat_5_conv_3x3_relu [arrowtail=open dir=back]
+	flatten18 -> multi_feat_5_conv_3x3_relu_anchors [arrowtail=open dir=back]
+	concat1 -> flatten3 [arrowtail=open dir=back]
+	concat1 -> flatten6 [arrowtail=open dir=back]
+	concat1 -> flatten9 [arrowtail=open dir=back]
+	concat1 -> flatten12 [arrowtail=open dir=back]
+	concat1 -> flatten15 [arrowtail=open dir=back]
+	concat1 -> flatten18 [arrowtail=open dir=back]
+	multibox_anchors -> concat1 [arrowtail=open dir=back]
+	multibox_target -> multibox_anchors [arrowtail=open dir=back]
+	multibox_target -> label [arrowtail=open dir=back]
+	multibox_target -> multibox_cls_pred [arrowtail=open dir=back]
+	cls_prob -> multibox_cls_pred [arrowtail=open dir=back]
+	cls_prob -> multibox_target [arrowtail=open dir=back]
+	relu4_3_loc_pred_conv -> broadcast_mul0 [arrowtail=open dir=back]
+	transpose0 -> relu4_3_loc_pred_conv [arrowtail=open dir=back]
+	flatten1 -> transpose0 [arrowtail=open dir=back]
+	relu7_loc_pred_conv -> relu7 [arrowtail=open dir=back]
+	transpose2 -> relu7_loc_pred_conv [arrowtail=open dir=back]
+	flatten4 -> transpose2 [arrowtail=open dir=back]
+	multi_feat_2_conv_3x3_relu_loc_pred_conv -> multi_feat_2_conv_3x3_relu [arrowtail=open dir=back]
+	transpose4 -> multi_feat_2_conv_3x3_relu_loc_pred_conv [arrowtail=open dir=back]
+	flatten7 -> transpose4 [arrowtail=open dir=back]
+	multi_feat_3_conv_3x3_relu_loc_pred_conv -> multi_feat_3_conv_3x3_relu [arrowtail=open dir=back]
+	transpose6 -> multi_feat_3_conv_3x3_relu_loc_pred_conv [arrowtail=open dir=back]
+	flatten10 -> transpose6 [arrowtail=open dir=back]
+	multi_feat_4_conv_3x3_relu_loc_pred_conv -> multi_feat_4_conv_3x3_relu [arrowtail=open dir=back]
+	transpose8 -> multi_feat_4_conv_3x3_relu_loc_pred_conv [arrowtail=open dir=back]
+	flatten13 -> transpose8 [arrowtail=open dir=back]
+	multi_feat_5_conv_3x3_relu_loc_pred_conv -> multi_feat_5_conv_3x3_relu [arrowtail=open dir=back]
+	transpose10 -> multi_feat_5_conv_3x3_relu_loc_pred_conv [arrowtail=open dir=back]
+	flatten16 -> transpose10 [arrowtail=open dir=back]
+	multibox_loc_pred -> flatten1 [arrowtail=open dir=back]
+	multibox_loc_pred -> flatten4 [arrowtail=open dir=back]
+	multibox_loc_pred -> flatten7 [arrowtail=open dir=back]
+	multibox_loc_pred -> flatten10 [arrowtail=open dir=back]
+	multibox_loc_pred -> flatten13 [arrowtail=open dir=back]
+	multibox_loc_pred -> flatten16 [arrowtail=open dir=back]
+	_minus0 -> multibox_loc_pred [arrowtail=open dir=back]
+	_minus0 -> multibox_target [arrowtail=open dir=back]
+	_mul0 -> multibox_target [arrowtail=open dir=back]
+	_mul0 -> _minus0 [arrowtail=open dir=back]
+	loc_loss_ -> _mul0 [arrowtail=open dir=back]
+	loc_loss -> loc_loss_ [arrowtail=open dir=back]
+	cls_label -> multibox_target [arrowtail=open dir=back]
+	detection -> cls_prob [arrowtail=open dir=back]
+	detection -> multibox_loc_pred [arrowtail=open dir=back]
+	detection -> multibox_anchors [arrowtail=open dir=back]
+	det_out -> detection [arrowtail=open dir=back]
+}

@@ -1,0 +1,57 @@
+digraph plot {
+	data [label="data
+null" fillcolor="#8dd3c7" fixedsize=false height=0.8034 hide_weights=true shape=oval style=filled width=1.3]
+	conv_1_conv2d [label="conv_1_conv2d
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 hide_weights=true shape=oval style=filled width=1.3]
+	conv_1_conv2d_cls_pred_conv [label="conv_1_conv2d_cls_pred_conv
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 hide_weights=true shape=oval style=filled width=1.3]
+	transpose1 [label="transpose1
+transpose" fillcolor="#fccde5" fixedsize=false height=0.8034 hide_weights=true shape=oval style=filled width=1.3]
+	flatten1 [label="flatten1
+Flatten" fillcolor="#fdb462" fixedsize=false height=0.8034 hide_weights=true shape=oval style=filled width=1.3]
+	concat0 [label="concat0
+Concat" fillcolor="#fdb462" fixedsize=false height=0.8034 hide_weights=true shape=oval style=filled width=1.3]
+	reshape0 [label="reshape0
+Reshape" fillcolor="#fdb462" fixedsize=false height=0.8034 hide_weights=true shape=oval style=filled width=1.3]
+	multibox_cls_pred [label="multibox_cls_pred
+transpose" fillcolor="#fccde5" fixedsize=false height=0.8034 hide_weights=true shape=oval style=filled width=1.3]
+	cls_prob [label="cls_prob
+SoftmaxActivation" fillcolor="#fccde5" fixedsize=false height=0.8034 hide_weights=true shape=oval style=filled width=1.3]
+	conv_1_conv2d_loc_pred_conv [label="conv_1_conv2d_loc_pred_conv
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 hide_weights=true shape=oval style=filled width=1.3]
+	transpose0 [label="transpose0
+transpose" fillcolor="#fccde5" fixedsize=false height=0.8034 hide_weights=true shape=oval style=filled width=1.3]
+	flatten0 [label="flatten0
+Flatten" fillcolor="#fdb462" fixedsize=false height=0.8034 hide_weights=true shape=oval style=filled width=1.3]
+	multibox_loc_pred [label="multibox_loc_pred
+Concat" fillcolor="#fdb462" fixedsize=false height=0.8034 hide_weights=true shape=oval style=filled width=1.3]
+	conv_1_conv2d_anchors [label="conv_1_conv2d_anchors
+_contrib_MultiBoxPrior" fillcolor="#fccde5" fixedsize=false height=0.8034 hide_weights=true shape=oval style=filled width=1.3]
+	flatten2 [label="flatten2
+Flatten" fillcolor="#fdb462" fixedsize=false height=0.8034 hide_weights=true shape=oval style=filled width=1.3]
+	concat1 [label="concat1
+Concat" fillcolor="#fdb462" fixedsize=false height=0.8034 hide_weights=true shape=oval style=filled width=1.3]
+	multibox_anchors [label="multibox_anchors
+Reshape" fillcolor="#fdb462" fixedsize=false height=0.8034 hide_weights=true shape=oval style=filled width=1.3]
+	detection [label="detection
+_contrib_MultiBoxDetection" fillcolor="#fccde5" fixedsize=false height=0.8034 hide_weights=true shape=oval style=filled width=1.3]
+	conv_1_conv2d -> data [label="1x3x300x300" arrowtail=open dir=back]
+	conv_1_conv2d_cls_pred_conv -> conv_1_conv2d [label="1x32x150x150" arrowtail=open dir=back]
+	transpose1 -> conv_1_conv2d_cls_pred_conv [label="1x20x150x150" arrowtail=open dir=back]
+	flatten1 -> transpose1 [label="1x150x150x20" arrowtail=open dir=back]
+	concat0 -> flatten1 [label="1x450000" arrowtail=open dir=back]
+	reshape0 -> concat0 [label="1x450000" arrowtail=open dir=back]
+	multibox_cls_pred -> reshape0 [label="1x90000x5" arrowtail=open dir=back]
+	cls_prob -> multibox_cls_pred [label="1x5x90000" arrowtail=open dir=back]
+	conv_1_conv2d_loc_pred_conv -> conv_1_conv2d [label="1x32x150x150" arrowtail=open dir=back]
+	transpose0 -> conv_1_conv2d_loc_pred_conv [label="1x16x150x150" arrowtail=open dir=back]
+	flatten0 -> transpose0 [label="1x150x150x16" arrowtail=open dir=back]
+	multibox_loc_pred -> flatten0 [label="1x360000" arrowtail=open dir=back]
+	conv_1_conv2d_anchors -> conv_1_conv2d [label="1x32x150x150" arrowtail=open dir=back]
+	flatten2 -> conv_1_conv2d_anchors [label="1x90000x4" arrowtail=open dir=back]
+	concat1 -> flatten2 [label="1x360000" arrowtail=open dir=back]
+	multibox_anchors -> concat1 [label="1x360000" arrowtail=open dir=back]
+	detection -> cls_prob [label="1x5x90000" arrowtail=open dir=back]
+	detection -> multibox_loc_pred [label="1x360000" arrowtail=open dir=back]
+	detection -> multibox_anchors [label="1x90000x4" arrowtail=open dir=back]
+}

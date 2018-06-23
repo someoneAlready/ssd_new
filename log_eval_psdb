@@ -1,0 +1,21 @@
+network=vgg16_reduced
+args.rec_path=/home/cgangee/code/ssd/data/psdb/val.rec
+num_class=4
+args.mean_r=123
+args.mean_g=117
+args.mean_b=104
+args.data_shape=300
+prefix=/home/cgangee/code/ssd/output/psdb/ssd
+args.epoch=240
+ctx=cpu(0)
+batch_size=1
+path_imglist=
+nms_thresh=0.45
+force_nms=False
+ovp_thresh=0.5
+use_difficult=False
+class_names=['pedestrian', 'head', 'head-shouler', 'upper-body']
+voc07_metric=True
+frequent=20
+[14:28:02] src/io/iter_image_det_recordio.cc:281: ImageDetRecordIOParser: /home/cgangee/code/ssd/data/psdb/val.rec, use 7 threads for decoding..
+[14:28:02] src/io/iter_image_det_recordio.cc:334: ImageDetRecordIOParser: /home/cgangee/code/ssd/data/psdb/val.rec, label padding width: 506

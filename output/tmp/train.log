@@ -1,0 +1,2 @@
+Start training with (gpu(0)) from pretrained model /media/cgangee/OTHERS/mxnet-ssd/model/vgg16_reduced
+Freezed parameters: [conv1_1_weight,conv1_1_bias,conv1_2_weight,conv1_2_bias,conv2_1_weight,conv2_1_bias,conv2_2_weight,conv2_2_bias]

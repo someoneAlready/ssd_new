@@ -1,0 +1,841 @@
+Start training with (gpu(0)) from pretrained model /home/cgangee/code/ssd/mobilev2
+Start finetuning with (gpu(0)) from epoch 1
+Epoch[1] Batch [20]	Speed: 73.59 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Epoch[1] Batch [40]	Speed: 73.14 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Epoch[1] Batch [60]	Speed: 69.77 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Start finetuning with (gpu(0)) from epoch 1
+Epoch[1] Batch [20]	Speed: 68.52 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Start finetuning with (gpu(0)) from epoch 1
+Start finetuning with (gpu(0)) from epoch 1
+Epoch[1] Batch [20]	Speed: 69.51 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Epoch[1] Batch [40]	Speed: 68.23 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Start finetuning with (gpu(0)) from epoch 1
+Epoch[1] Batch [20]	Speed: 71.94 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Epoch[1] Batch [40]	Speed: 74.14 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Epoch[1] Batch [60]	Speed: 72.97 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Epoch[1] Batch [80]	Speed: 68.77 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Start finetuning with (gpu(0)) from epoch 1
+Epoch[1] Batch [20]	Speed: 71.31 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Start finetuning with (gpu(0)) from epoch 1
+Start finetuning with (gpu(0)) from epoch 1
+Epoch[1] Batch [20]	Speed: 69.71 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Epoch[1] Batch [40]	Speed: 69.46 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Epoch[1] Batch [60]	Speed: 71.90 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Epoch[1] Batch [80]	Speed: 71.26 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Start finetuning with (gpu(0)) from epoch 1
+Start finetuning with (gpu(0)) from epoch 1
+Epoch[1] Batch [20]	Speed: 71.72 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Epoch[1] Batch [40]	Speed: 67.95 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Start finetuning with (gpu(0)) from epoch 1
+Epoch[1] Batch [20]	Speed: 62.67 samples/sec	CrossEntropy=16.066579	SmoothL1=22.838009
+Epoch[1] Batch [40]	Speed: 65.73 samples/sec	CrossEntropy=10.426682	SmoothL1=10.027436
+Epoch[1] Batch [60]	Speed: 64.25 samples/sec	CrossEntropy=7.973095	SmoothL1=7.538195
+Epoch[1] Batch [80]	Speed: 67.63 samples/sec	CrossEntropy=7.289289	SmoothL1=6.295483
+Epoch[1] Batch [100]	Speed: 69.14 samples/sec	CrossEntropy=7.023421	SmoothL1=5.572529
+Epoch[1] Batch [120]	Speed: 67.07 samples/sec	CrossEntropy=6.575490	SmoothL1=6.283538
+Epoch[1] Batch [140]	Speed: 64.80 samples/sec	CrossEntropy=7.028227	SmoothL1=6.182498
+Epoch[1] Batch [160]	Speed: 65.58 samples/sec	CrossEntropy=6.778402	SmoothL1=5.608730
+Epoch[1] Batch [180]	Speed: 67.18 samples/sec	CrossEntropy=6.755332	SmoothL1=5.512554
+Epoch[1] Batch [200]	Speed: 67.35 samples/sec	CrossEntropy=6.476896	SmoothL1=4.932818
+Epoch[1] Batch [220]	Speed: 64.39 samples/sec	CrossEntropy=6.380422	SmoothL1=4.778879
+Epoch[1] Batch [240]	Speed: 63.24 samples/sec	CrossEntropy=6.477000	SmoothL1=4.823976
+Epoch[1] Batch [260]	Speed: 68.42 samples/sec	CrossEntropy=6.325694	SmoothL1=4.546769
+Epoch[1] Batch [280]	Speed: 64.60 samples/sec	CrossEntropy=6.279788	SmoothL1=4.438509
+Epoch[1] Batch [300]	Speed: 63.38 samples/sec	CrossEntropy=6.238124	SmoothL1=4.309595
+Epoch[1] Batch [320]	Speed: 66.40 samples/sec	CrossEntropy=6.145129	SmoothL1=4.089670
+Epoch[1] Batch [340]	Speed: 63.80 samples/sec	CrossEntropy=6.153942	SmoothL1=4.200295
+Epoch[1] Batch [360]	Speed: 63.22 samples/sec	CrossEntropy=5.996371	SmoothL1=3.904355
+Epoch[1] Batch [380]	Speed: 65.43 samples/sec	CrossEntropy=5.896623	SmoothL1=3.809322
+Epoch[1] Batch [400]	Speed: 66.98 samples/sec	CrossEntropy=5.880365	SmoothL1=3.822299
+Epoch[1] Train-CrossEntropy=5.829623
+Epoch[1] Train-SmoothL1=3.770040
+Epoch[1] Time cost=204.794
+Epoch[1] Validation-pedestrian=0.001966
+Epoch[1] Validation-head=0.000326
+Epoch[1] Validation-head-shouler=0.000069
+Epoch[1] Validation-upper-body=0.000262
+Epoch[1] Validation-mAP=0.000656
+Epoch[2] Batch [20]	Speed: 62.80 samples/sec	CrossEntropy=5.695432	SmoothL1=3.508012
+Epoch[2] Batch [40]	Speed: 64.53 samples/sec	CrossEntropy=5.769814	SmoothL1=3.611908
+Epoch[2] Batch [60]	Speed: 62.52 samples/sec	CrossEntropy=5.628653	SmoothL1=3.448941
+Epoch[2] Batch [80]	Speed: 60.34 samples/sec	CrossEntropy=5.500671	SmoothL1=3.272141
+Epoch[2] Batch [100]	Speed: 60.07 samples/sec	CrossEntropy=5.424375	SmoothL1=3.158794
+Epoch[2] Batch [120]	Speed: 65.13 samples/sec	CrossEntropy=5.516564	SmoothL1=3.296542
+Epoch[2] Batch [140]	Speed: 61.68 samples/sec	CrossEntropy=5.484980	SmoothL1=3.207526
+Epoch[2] Batch [160]	Speed: 60.13 samples/sec	CrossEntropy=5.296081	SmoothL1=2.998853
+Epoch[2] Batch [180]	Speed: 63.58 samples/sec	CrossEntropy=5.345308	SmoothL1=3.055124
+Start finetuning with (gpu(0)) from epoch 1
+Epoch[1] Batch [20]	Speed: 70.25 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Epoch[1] Batch [40]	Speed: 66.23 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Start finetuning with (gpu(0)) from epoch 1
+Epoch[1] Batch [20]	Speed: 72.16 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Start finetuning with (gpu(0)) from epoch 1
+Epoch[1] Batch [20]	Speed: 69.38 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Start finetuning with (gpu(0)) from epoch 1
+Epoch[1] Batch [20]	Speed: 68.49 samples/sec	CrossEntropy=15.269708	SmoothL1=51539843186688.414062
+Epoch[1] Batch [40]	Speed: 65.95 samples/sec	CrossEntropy=16.069410	SmoothL1=67898672131478.382812
+Epoch[1] Batch [60]	Speed: 67.97 samples/sec	CrossEntropy=16.032743	SmoothL1=65117128993891.546875
+Epoch[1] Batch [80]	Speed: 70.00 samples/sec	CrossEntropy=16.099153	SmoothL1=53268868369541.648438
+Epoch[1] Batch [100]	Speed: 65.30 samples/sec	CrossEntropy=16.061287	SmoothL1=39880459891827.203125
+Epoch[1] Batch [120]	Speed: 67.26 samples/sec	CrossEntropy=16.048019	SmoothL1=29047295669640.296875
+Epoch[1] Batch [140]	Speed: 63.86 samples/sec	CrossEntropy=16.071431	SmoothL1=19051719470406.558594
+Epoch[1] Batch [160]	Speed: 65.63 samples/sec	CrossEntropy=16.105532	SmoothL1=9465381842986.560547
+Epoch[1] Batch [180]	Speed: 67.24 samples/sec	CrossEntropy=16.069629	SmoothL1=3012666128818.466309
+Start finetuning with (gpu(0)) from epoch 1
+Epoch[1] Batch [20]	Speed: 70.96 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Epoch[1] Batch [40]	Speed: 72.74 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Start finetuning with (gpu(0)) from epoch 1
+Epoch[1] Batch [20]	Speed: 69.51 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Epoch[1] Batch [40]	Speed: 73.70 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Epoch[1] Batch [60]	Speed: 70.06 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Start finetuning with (gpu(0)) from epoch 1
+Epoch[1] Batch [20]	Speed: 67.42 samples/sec	CrossEntropy=11.783578	SmoothL1=21.012008
+Epoch[1] Batch [40]	Speed: 66.56 samples/sec	CrossEntropy=7.016281	SmoothL1=6.050093
+Epoch[1] Batch [60]	Speed: 66.27 samples/sec	CrossEntropy=6.435431	SmoothL1=4.612255
+Epoch[1] Batch [80]	Speed: 66.96 samples/sec	CrossEntropy=6.181015	SmoothL1=3.885153
+Epoch[1] Batch [100]	Speed: 61.50 samples/sec	CrossEntropy=6.630362	SmoothL1=17.833684
+Epoch[1] Batch [120]	Speed: 65.49 samples/sec	CrossEntropy=5.995163	SmoothL1=4.305240
+Epoch[1] Batch [140]	Speed: 63.73 samples/sec	CrossEntropy=5.908617	SmoothL1=3.794827
+Epoch[1] Batch [160]	Speed: 66.09 samples/sec	CrossEntropy=5.664374	SmoothL1=3.306772
+Epoch[1] Batch [180]	Speed: 67.88 samples/sec	CrossEntropy=5.559819	SmoothL1=3.189311
+Epoch[1] Batch [200]	Speed: 63.73 samples/sec	CrossEntropy=5.288703	SmoothL1=2.856017
+Epoch[1] Batch [220]	Speed: 65.87 samples/sec	CrossEntropy=5.139741	SmoothL1=2.719726
+Epoch[1] Batch [240]	Speed: 65.86 samples/sec	CrossEntropy=5.139965	SmoothL1=2.708193
+Epoch[1] Batch [260]	Speed: 64.18 samples/sec	CrossEntropy=4.941556	SmoothL1=2.551322
+Epoch[1] Batch [280]	Speed: 63.07 samples/sec	CrossEntropy=4.845347	SmoothL1=2.554257
+Epoch[1] Batch [300]	Speed: 62.58 samples/sec	CrossEntropy=4.851937	SmoothL1=2.483406
+Epoch[1] Batch [320]	Speed: 64.40 samples/sec	CrossEntropy=4.696109	SmoothL1=2.299455
+Epoch[1] Batch [340]	Speed: 63.50 samples/sec	CrossEntropy=4.547302	SmoothL1=2.225937
+Epoch[1] Batch [360]	Speed: 63.43 samples/sec	CrossEntropy=4.375196	SmoothL1=2.026319
+Epoch[1] Batch [380]	Speed: 59.85 samples/sec	CrossEntropy=4.232325	SmoothL1=1.934041
+Epoch[1] Batch [400]	Speed: 66.73 samples/sec	CrossEntropy=4.128936	SmoothL1=1.894725
+Start finetuning with (gpu(0)) from epoch 1
+Epoch[1] Batch [20]	Speed: 72.30 samples/sec	CrossEntropy=12.293109	SmoothL1=1821292891.537539
+Epoch[1] Batch [40]	Speed: 73.36 samples/sec	CrossEntropy=11.307819	SmoothL1=58255871517.882652
+Epoch[1] Batch [60]	Speed: 71.54 samples/sec	CrossEntropy=16.150287	SmoothL1=3240617288.794150
+Epoch[1] Batch [80]	Speed: 72.03 samples/sec	CrossEntropy=16.087145	SmoothL1=1232920452.830930
+Epoch[1] Batch [100]	Speed: 74.39 samples/sec	CrossEntropy=16.045224	SmoothL1=210458703.955695
+Epoch[1] Batch [120]	Speed: 69.78 samples/sec	CrossEntropy=16.000613	SmoothL1=61373602.319032
+Epoch[1] Batch [140]	Speed: 64.41 samples/sec	CrossEntropy=15.761475	SmoothL1=30712218.713681
+Epoch[1] Batch [160]	Speed: 71.13 samples/sec	CrossEntropy=6.405269	SmoothL1=21459696.553097
+Epoch[1] Batch [180]	Speed: 72.76 samples/sec	CrossEntropy=6.300251	SmoothL1=19435442.406990
+Epoch[1] Batch [200]	Speed: 71.32 samples/sec	CrossEntropy=6.331759	SmoothL1=17576621.863230
+Start finetuning with (gpu(0)) from epoch 1
+Epoch[1] Batch [20]	Speed: 64.38 samples/sec	CrossEntropy=15.800540	SmoothL1=20.566263
+Epoch[1] Batch [40]	Speed: 70.04 samples/sec	CrossEntropy=10.320451	SmoothL1=10.137552
+Epoch[1] Batch [60]	Speed: 73.54 samples/sec	CrossEntropy=7.412137	SmoothL1=7.589783
+Epoch[1] Batch [80]	Speed: 73.13 samples/sec	CrossEntropy=6.885651	SmoothL1=6.533720
+Epoch[1] Batch [100]	Speed: 70.79 samples/sec	CrossEntropy=6.830781	SmoothL1=5.715491
+Epoch[1] Batch [120]	Speed: 69.14 samples/sec	CrossEntropy=6.581172	SmoothL1=5.129470
+Epoch[1] Batch [140]	Speed: 66.95 samples/sec	CrossEntropy=6.569742	SmoothL1=5.080215
+Epoch[1] Batch [160]	Speed: 69.25 samples/sec	CrossEntropy=6.417092	SmoothL1=4.685735
+Epoch[1] Batch [180]	Speed: 70.32 samples/sec	CrossEntropy=6.494198	SmoothL1=4.569922
+Epoch[1] Batch [200]	Speed: 67.84 samples/sec	CrossEntropy=6.256122	SmoothL1=4.080413
+Epoch[1] Batch [220]	Speed: 70.14 samples/sec	CrossEntropy=6.130926	SmoothL1=3.902470
+Epoch[1] Batch [240]	Speed: 68.09 samples/sec	CrossEntropy=6.173866	SmoothL1=3.915265
+Epoch[1] Batch [260]	Speed: 67.03 samples/sec	CrossEntropy=6.025016	SmoothL1=3.699060
+Epoch[1] Batch [280]	Speed: 68.76 samples/sec	CrossEntropy=5.935559	SmoothL1=3.558663
+Epoch[1] Batch [300]	Speed: 67.05 samples/sec	CrossEntropy=5.800261	SmoothL1=3.296213
+Epoch[1] Batch [320]	Speed: 69.32 samples/sec	CrossEntropy=5.693267	SmoothL1=3.088686
+Epoch[1] Batch [340]	Speed: 68.83 samples/sec	CrossEntropy=5.671985	SmoothL1=3.102297
+Epoch[1] Batch [360]	Speed: 69.89 samples/sec	CrossEntropy=5.545947	SmoothL1=2.901456
+Epoch[1] Batch [380]	Speed: 70.10 samples/sec	CrossEntropy=5.341712	SmoothL1=2.700420
+Epoch[1] Batch [400]	Speed: 70.47 samples/sec	CrossEntropy=5.223377	SmoothL1=2.549776
+Epoch[1] Train-CrossEntropy=5.130495
+Epoch[1] Train-SmoothL1=2.539214
+Epoch[1] Time cost=193.883
+Epoch[1] Validation-pedestrian=0.001602
+Epoch[1] Validation-head=0.000052
+Epoch[1] Validation-head-shouler=0.000187
+Epoch[1] Validation-upper-body=0.000678
+Epoch[1] Validation-mAP=0.000630
+Epoch[2] Batch [20]	Speed: 65.38 samples/sec	CrossEntropy=4.851709	SmoothL1=2.205392
+Epoch[2] Batch [40]	Speed: 65.71 samples/sec	CrossEntropy=4.877431	SmoothL1=2.221270
+Epoch[2] Batch [60]	Speed: 70.76 samples/sec	CrossEntropy=4.628367	SmoothL1=2.042083
+Epoch[2] Batch [80]	Speed: 67.66 samples/sec	CrossEntropy=4.514349	SmoothL1=1.915670
+Epoch[2] Batch [100]	Speed: 63.11 samples/sec	CrossEntropy=4.371713	SmoothL1=1.815425
+Epoch[2] Batch [120]	Speed: 66.80 samples/sec	CrossEntropy=4.434441	SmoothL1=1.844896
+Epoch[2] Batch [140]	Speed: 66.27 samples/sec	CrossEntropy=4.356427	SmoothL1=1.834431
+Epoch[2] Batch [160]	Speed: 63.71 samples/sec	CrossEntropy=4.259181	SmoothL1=1.733899
+Epoch[2] Batch [180]	Speed: 64.73 samples/sec	CrossEntropy=4.317265	SmoothL1=1.762917
+Epoch[2] Batch [200]	Speed: 65.14 samples/sec	CrossEntropy=4.185756	SmoothL1=1.708783
+Epoch[2] Batch [220]	Speed: 66.50 samples/sec	CrossEntropy=4.186747	SmoothL1=1.669648
+Epoch[2] Batch [240]	Speed: 67.89 samples/sec	CrossEntropy=4.062019	SmoothL1=1.593891
+Epoch[2] Batch [260]	Speed: 63.55 samples/sec	CrossEntropy=4.423248	SmoothL1=1.971302
+Epoch[2] Batch [280]	Speed: 65.05 samples/sec	CrossEntropy=4.959278	SmoothL1=2.378294
+Epoch[2] Batch [300]	Speed: 63.54 samples/sec	CrossEntropy=4.344038	SmoothL1=1.763655
+Epoch[2] Batch [320]	Speed: 66.30 samples/sec	CrossEntropy=4.086798	SmoothL1=1.661415
+Epoch[2] Batch [340]	Speed: 63.80 samples/sec	CrossEntropy=3.946305	SmoothL1=1.578115
+Epoch[2] Batch [360]	Speed: 65.67 samples/sec	CrossEntropy=3.859945	SmoothL1=1.516333
+Epoch[2] Batch [380]	Speed: 66.39 samples/sec	CrossEntropy=3.734627	SmoothL1=1.452434
+Epoch[2] Batch [400]	Speed: 68.40 samples/sec	CrossEntropy=3.726744	SmoothL1=1.425566
+Epoch[2] Train-CrossEntropy=3.656748
+Epoch[2] Train-SmoothL1=1.463282
+Epoch[2] Time cost=203.336
+Epoch[2] Validation-pedestrian=0.000588
+Epoch[2] Validation-head=0.000017
+Epoch[2] Validation-head-shouler=0.000337
+Epoch[2] Validation-upper-body=0.000229
+Epoch[2] Validation-mAP=0.000293
+Epoch[3] Batch [20]	Speed: 61.07 samples/sec	CrossEntropy=3.635817	SmoothL1=1.364105
+Epoch[3] Batch [40]	Speed: 63.30 samples/sec	CrossEntropy=3.629803	SmoothL1=1.395360
+Epoch[3] Batch [60]	Speed: 64.84 samples/sec	CrossEntropy=3.533614	SmoothL1=1.336828
+Epoch[3] Batch [80]	Speed: 66.81 samples/sec	CrossEntropy=3.552781	SmoothL1=1.385988
+Epoch[3] Batch [100]	Speed: 64.06 samples/sec	CrossEntropy=3.505783	SmoothL1=1.321895
+Epoch[3] Batch [120]	Speed: 66.06 samples/sec	CrossEntropy=3.487954	SmoothL1=1.313832
+Epoch[3] Batch [140]	Speed: 66.50 samples/sec	CrossEntropy=3.415489	SmoothL1=1.265181
+Epoch[3] Batch [160]	Speed: 66.06 samples/sec	CrossEntropy=3.397289	SmoothL1=1.260090
+Epoch[3] Batch [180]	Speed: 65.42 samples/sec	CrossEntropy=3.412285	SmoothL1=1.267536
+Epoch[3] Batch [200]	Speed: 64.81 samples/sec	CrossEntropy=3.338980	SmoothL1=1.228967
+Epoch[3] Batch [220]	Speed: 65.05 samples/sec	CrossEntropy=3.304437	SmoothL1=1.223285
+Epoch[3] Batch [240]	Speed: 62.00 samples/sec	CrossEntropy=3.290647	SmoothL1=1.242115
+Epoch[3] Batch [260]	Speed: 68.19 samples/sec	CrossEntropy=3.298674	SmoothL1=1.206904
+Epoch[3] Batch [280]	Speed: 67.15 samples/sec	CrossEntropy=3.272675	SmoothL1=1.226928
+Epoch[3] Batch [300]	Speed: 63.11 samples/sec	CrossEntropy=3.219893	SmoothL1=1.231352
+Epoch[3] Batch [320]	Speed: 64.89 samples/sec	CrossEntropy=3.214870	SmoothL1=1.213377
+Epoch[3] Batch [340]	Speed: 66.24 samples/sec	CrossEntropy=3.254423	SmoothL1=1.296854
+Epoch[3] Batch [360]	Speed: 65.39 samples/sec	CrossEntropy=3.199327	SmoothL1=1.224649
+Epoch[3] Batch [380]	Speed: 66.94 samples/sec	CrossEntropy=3.151780	SmoothL1=1.174024
+Epoch[3] Batch [400]	Speed: 68.67 samples/sec	CrossEntropy=3.162637	SmoothL1=1.212029
+Epoch[3] Train-CrossEntropy=3.106295
+Epoch[3] Train-SmoothL1=1.212095
+Epoch[3] Time cost=204.978
+Epoch[3] Validation-pedestrian=0.001679
+Epoch[3] Validation-head=0.000017
+Epoch[3] Validation-head-shouler=0.001021
+Epoch[3] Validation-upper-body=0.001186
+Epoch[3] Validation-mAP=0.000976
+Epoch[4] Batch [20]	Speed: 66.63 samples/sec	CrossEntropy=3.132175	SmoothL1=1.218725
+Epoch[4] Batch [40]	Speed: 66.09 samples/sec	CrossEntropy=3.131984	SmoothL1=1.231748
+Epoch[4] Batch [60]	Speed: 66.39 samples/sec	CrossEntropy=3.071697	SmoothL1=1.161434
+Epoch[4] Batch [80]	Speed: 64.65 samples/sec	CrossEntropy=3.111501	SmoothL1=1.230018
+Epoch[4] Batch [100]	Speed: 63.65 samples/sec	CrossEntropy=3.082415	SmoothL1=1.174278
+Epoch[4] Batch [120]	Speed: 65.07 samples/sec	CrossEntropy=3.029124	SmoothL1=1.163848
+Epoch[4] Batch [140]	Speed: 64.05 samples/sec	CrossEntropy=3.088479	SmoothL1=1.206879
+Epoch[4] Batch [160]	Speed: 64.24 samples/sec	CrossEntropy=3.008445	SmoothL1=1.146062
+Epoch[4] Batch [180]	Speed: 65.71 samples/sec	CrossEntropy=3.003529	SmoothL1=1.121652
+Epoch[4] Batch [200]	Speed: 66.74 samples/sec	CrossEntropy=3.026148	SmoothL1=1.211755
+Epoch[4] Batch [220]	Speed: 67.46 samples/sec	CrossEntropy=2.989141	SmoothL1=1.158882
+Epoch[4] Batch [240]	Speed: 63.90 samples/sec	CrossEntropy=2.974666	SmoothL1=1.159027
+Epoch[4] Batch [260]	Speed: 63.61 samples/sec	CrossEntropy=2.970603	SmoothL1=1.133714
+Epoch[4] Batch [280]	Speed: 66.16 samples/sec	CrossEntropy=2.930130	SmoothL1=1.135623
+Epoch[4] Batch [300]	Speed: 64.75 samples/sec	CrossEntropy=2.913981	SmoothL1=1.131825
+Epoch[4] Batch [320]	Speed: 64.26 samples/sec	CrossEntropy=2.926467	SmoothL1=1.136280
+Epoch[4] Batch [340]	Speed: 65.58 samples/sec	CrossEntropy=2.909612	SmoothL1=1.165044
+Epoch[4] Batch [360]	Speed: 66.84 samples/sec	CrossEntropy=2.931524	SmoothL1=1.148130
+Epoch[4] Batch [380]	Speed: 66.34 samples/sec	CrossEntropy=2.878421	SmoothL1=1.148983
+Epoch[4] Batch [400]	Speed: 69.86 samples/sec	CrossEntropy=2.885158	SmoothL1=1.186996
+Epoch[4] Train-CrossEntropy=2.861173
+Epoch[4] Train-SmoothL1=1.183363
+Epoch[4] Time cost=203.605
+Saved checkpoint to "/home/cgangee/code/ssd/output/psdbMobileNet_v2/ssd-0005.params"
+Epoch[4] Validation-pedestrian=0.001429
+Epoch[4] Validation-head=0.000010
+Epoch[4] Validation-head-shouler=0.000165
+Epoch[4] Validation-upper-body=0.000400
+Epoch[4] Validation-mAP=0.000501
+Start finetuning with (gpu(0)) from epoch 5
+Epoch[5] Batch [20]	Speed: 78.60 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Epoch[5] Batch [40]	Speed: 80.74 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Start finetuning with (gpu(0)) from epoch 5
+Epoch[5] Batch [20]	Speed: 70.39 samples/sec	CrossEntropy=5.655586	SmoothL1=4.651694
+Epoch[5] Batch [40]	Speed: 72.15 samples/sec	CrossEntropy=5.269302	SmoothL1=3.232012
+Epoch[5] Batch [60]	Speed: 67.94 samples/sec	CrossEntropy=4.812056	SmoothL1=2.630011
+Epoch[5] Batch [80]	Speed: 66.53 samples/sec	CrossEntropy=4.504086	SmoothL1=2.405815
+Epoch[5] Batch [100]	Speed: 68.44 samples/sec	CrossEntropy=4.228745	SmoothL1=2.141760
+Start finetuning with (gpu(0)) from epoch 5
+Epoch[5] Batch [20]	Speed: 76.08 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Epoch[5] Batch [40]	Speed: 83.94 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Start finetuning with (gpu(0)) from epoch 5
+Epoch[5] Batch [20]	Speed: 78.61 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Epoch[5] Batch [40]	Speed: 78.67 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Epoch[5] Batch [60]	Speed: 75.85 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Epoch[5] Batch [80]	Speed: 77.41 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Epoch[5] Batch [100]	Speed: 74.11 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Epoch[5] Batch [120]	Speed: 79.67 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Epoch[5] Batch [140]	Speed: 76.30 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Epoch[5] Batch [160]	Speed: 73.08 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Epoch[5] Batch [180]	Speed: 80.08 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Epoch[5] Batch [200]	Speed: 76.34 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Epoch[5] Batch [220]	Speed: 78.00 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Epoch[5] Batch [240]	Speed: 79.01 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Epoch[5] Batch [260]	Speed: 78.05 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Epoch[5] Batch [280]	Speed: 78.68 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Start finetuning with (gpu(0)) from epoch 5
+Epoch[5] Batch [20]	Speed: 70.35 samples/sec	CrossEntropy=14.302130	SmoothL1=8063421828.579616
+Epoch[5] Batch [40]	Speed: 77.76 samples/sec	CrossEntropy=10.180452	SmoothL1=8619700910.492491
+Epoch[5] Batch [60]	Speed: 73.50 samples/sec	CrossEntropy=4.887200	SmoothL1=7112188656.830184
+Epoch[5] Batch [80]	Speed: 76.77 samples/sec	CrossEntropy=6.090167	SmoothL1=4158547381.438724
+Epoch[5] Batch [100]	Speed: 77.69 samples/sec	CrossEntropy=6.217790	SmoothL1=1427247449.124426
+Start finetuning with (gpu(0)) from epoch 5
+Epoch[5] Batch [20]	Speed: 74.23 samples/sec	CrossEntropy=14.571032	SmoothL1=4969900035179214.000000
+Epoch[5] Batch [40]	Speed: 72.30 samples/sec	CrossEntropy=15.752741	SmoothL1=5995451240053902.000000
+Epoch[5] Batch [60]	Speed: 66.14 samples/sec	CrossEntropy=15.931156	SmoothL1=5174884004820680.000000
+Epoch[5] Batch [80]	Speed: 77.89 samples/sec	CrossEntropy=7.101648	SmoothL1=802635381739864.125000
+Epoch[5] Batch [100]	Speed: 75.73 samples/sec	CrossEntropy=5.257910	SmoothL1=257286490420547.968750
+Epoch[5] Batch [120]	Speed: 77.35 samples/sec	CrossEntropy=5.511839	SmoothL1=303928829225741.437500
+Epoch[5] Batch [140]	Speed: 70.86 samples/sec	CrossEntropy=5.371932	SmoothL1=275538413541794.968750
+Epoch[5] Batch [160]	Speed: 74.00 samples/sec	CrossEntropy=5.251090	SmoothL1=196724463996426.312500
+Start finetuning with (gpu(0)) from epoch 5
+Epoch[5] Batch [20]	Speed: 72.52 samples/sec	CrossEntropy=14.567861	SmoothL1=3927723828434274.000000
+Epoch[5] Batch [40]	Speed: 68.49 samples/sec	CrossEntropy=15.750357	SmoothL1=5213514661881986.000000
+Epoch[5] Batch [60]	Speed: 69.12 samples/sec	CrossEntropy=15.903917	SmoothL1=4725663832691044.000000
+Epoch[5] Batch [80]	Speed: 76.72 samples/sec	CrossEntropy=8.130122	SmoothL1=898872680203636.625000
+Epoch[5] Batch [100]	Speed: 76.56 samples/sec	CrossEntropy=5.256582	SmoothL1=332558354259757.875000
+Epoch[5] Batch [120]	Speed: 76.06 samples/sec	CrossEntropy=5.255889	SmoothL1=265554379442105.125000
+Start finetuning with (gpu(0)) from epoch 5
+Epoch[5] Batch [20]	Speed: 71.78 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Epoch[5] Batch [40]	Speed: 76.87 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Epoch[5] Batch [60]	Speed: 78.04 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Epoch[5] Batch [80]	Speed: 74.56 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Epoch[5] Batch [100]	Speed: 77.30 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Epoch[5] Batch [120]	Speed: 73.73 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Epoch[5] Batch [140]	Speed: 73.23 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Epoch[5] Batch [160]	Speed: 77.00 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Epoch[5] Batch [180]	Speed: 74.49 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Epoch[5] Batch [200]	Speed: 75.25 samples/sec	CrossEntropy=nan	SmoothL1=nan
+Start finetuning with (gpu(0)) from epoch 5
+Epoch[5] Batch [20]	Speed: 69.72 samples/sec	CrossEntropy=5.006083	SmoothL1=2.780208
+Epoch[5] Batch [40]	Speed: 71.92 samples/sec	CrossEntropy=5.782920	SmoothL1=4.409823
+Epoch[5] Batch [60]	Speed: 68.81 samples/sec	CrossEntropy=5.483283	SmoothL1=3.404134
+Epoch[5] Batch [80]	Speed: 69.15 samples/sec	CrossEntropy=5.190035	SmoothL1=2.966684
+Epoch[5] Batch [100]	Speed: 64.49 samples/sec	CrossEntropy=4.822386	SmoothL1=2.526222
+Epoch[5] Batch [120]	Speed: 66.05 samples/sec	CrossEntropy=4.426285	SmoothL1=2.163471
+Epoch[5] Batch [140]	Speed: 67.01 samples/sec	CrossEntropy=4.298277	SmoothL1=2.064229
+Epoch[5] Batch [160]	Speed: 66.78 samples/sec	CrossEntropy=4.088726	SmoothL1=1.903728
+Epoch[5] Batch [180]	Speed: 64.92 samples/sec	CrossEntropy=4.041768	SmoothL1=1.870673
+Epoch[5] Batch [200]	Speed: 67.44 samples/sec	CrossEntropy=3.852370	SmoothL1=1.724787
+Epoch[5] Batch [220]	Speed: 68.83 samples/sec	CrossEntropy=3.778431	SmoothL1=1.678558
+Epoch[5] Batch [240]	Speed: 67.15 samples/sec	CrossEntropy=3.792352	SmoothL1=1.694928
+Epoch[5] Batch [260]	Speed: 66.85 samples/sec	CrossEntropy=3.640336	SmoothL1=1.592884
+Epoch[5] Batch [280]	Speed: 64.24 samples/sec	CrossEntropy=3.586579	SmoothL1=1.615691
+Epoch[5] Batch [300]	Speed: 63.90 samples/sec	CrossEntropy=3.484169	SmoothL1=1.518739
+Epoch[5] Batch [320]	Speed: 65.10 samples/sec	CrossEntropy=3.467288	SmoothL1=1.507253
+Epoch[5] Batch [340]	Speed: 68.13 samples/sec	CrossEntropy=3.459031	SmoothL1=1.502076
+Epoch[5] Batch [360]	Speed: 69.50 samples/sec	CrossEntropy=3.391102	SmoothL1=1.438539
+Epoch[5] Batch [380]	Speed: 67.83 samples/sec	CrossEntropy=3.370356	SmoothL1=1.448358
+Epoch[5] Batch [400]	Speed: 68.38 samples/sec	CrossEntropy=3.342691	SmoothL1=1.456063
+Epoch[5] Train-CrossEntropy=3.242134
+Epoch[5] Train-SmoothL1=1.433578
+Epoch[5] Time cost=199.065
+Epoch[5] Validation-pedestrian=0.001998
+Epoch[5] Validation-head=0.000071
+Epoch[5] Validation-head-shouler=0.000150
+Epoch[5] Validation-upper-body=0.001359
+Epoch[5] Validation-mAP=0.000894
+Epoch[6] Batch [20]	Speed: 64.12 samples/sec	CrossEntropy=3.201473	SmoothL1=1.304623
+Epoch[6] Batch [40]	Speed: 63.12 samples/sec	CrossEntropy=3.228990	SmoothL1=1.430265
+Epoch[6] Batch [60]	Speed: 69.89 samples/sec	CrossEntropy=3.132402	SmoothL1=1.369220
+Epoch[6] Batch [80]	Speed: 67.79 samples/sec	CrossEntropy=3.095303	SmoothL1=1.317685
+Epoch[6] Batch [100]	Speed: 64.04 samples/sec	CrossEntropy=3.048663	SmoothL1=1.293886
+Epoch[6] Batch [120]	Speed: 65.46 samples/sec	CrossEntropy=3.065702	SmoothL1=1.325662
+Epoch[6] Batch [140]	Speed: 62.66 samples/sec	CrossEntropy=3.082428	SmoothL1=1.384336
+Epoch[6] Batch [160]	Speed: 64.30 samples/sec	CrossEntropy=3.022322	SmoothL1=1.297271
+Epoch[6] Batch [180]	Speed: 64.81 samples/sec	CrossEntropy=3.000367	SmoothL1=1.314675
+Epoch[6] Batch [200]	Speed: 65.12 samples/sec	CrossEntropy=2.944622	SmoothL1=1.304177
+Epoch[6] Batch [220]	Speed: 65.45 samples/sec	CrossEntropy=2.927711	SmoothL1=1.284463
+Epoch[6] Batch [240]	Speed: 64.72 samples/sec	CrossEntropy=2.859955	SmoothL1=1.243220
+Epoch[6] Batch [260]	Speed: 64.60 samples/sec	CrossEntropy=2.859983	SmoothL1=1.259792
+Epoch[6] Batch [280]	Speed: 66.03 samples/sec	CrossEntropy=2.857359	SmoothL1=1.294374
+Epoch[6] Batch [300]	Speed: 68.84 samples/sec	CrossEntropy=2.825243	SmoothL1=1.230594
+Epoch[6] Batch [320]	Speed: 66.61 samples/sec	CrossEntropy=2.893747	SmoothL1=1.260987
+Epoch[6] Batch [340]	Speed: 64.21 samples/sec	CrossEntropy=2.844813	SmoothL1=1.254888
+Epoch[6] Batch [360]	Speed: 66.95 samples/sec	CrossEntropy=3.065615	SmoothL1=1.360358
+Epoch[6] Batch [380]	Speed: 66.20 samples/sec	CrossEntropy=2.988259	SmoothL1=1.295546
+Epoch[6] Batch [400]	Speed: 68.57 samples/sec	CrossEntropy=2.871282	SmoothL1=1.259004
+Epoch[6] Train-CrossEntropy=2.818709
+Epoch[6] Train-SmoothL1=1.275575
+Epoch[6] Time cost=204.060
+Epoch[6] Validation-pedestrian=0.001704
+Epoch[6] Validation-head=0.000063
+Epoch[6] Validation-head-shouler=0.000194
+Epoch[6] Validation-upper-body=0.001490
+Epoch[6] Validation-mAP=0.000863
+Epoch[7] Batch [20]	Speed: 63.83 samples/sec	CrossEntropy=2.830749	SmoothL1=1.217104
+Epoch[7] Batch [40]	Speed: 65.47 samples/sec	CrossEntropy=2.774263	SmoothL1=1.225663
+Epoch[7] Batch [60]	Speed: 64.71 samples/sec	CrossEntropy=2.651938	SmoothL1=1.176073
+Epoch[7] Batch [80]	Speed: 68.42 samples/sec	CrossEntropy=2.682342	SmoothL1=1.220504
+Epoch[7] Batch [100]	Speed: 64.18 samples/sec	CrossEntropy=2.647125	SmoothL1=1.168036
+Epoch[7] Batch [120]	Speed: 63.47 samples/sec	CrossEntropy=2.643660	SmoothL1=1.162988
+Epoch[7] Batch [140]	Speed: 62.67 samples/sec	CrossEntropy=2.612944	SmoothL1=1.148917
+Epoch[7] Batch [160]	Speed: 64.13 samples/sec	CrossEntropy=2.613999	SmoothL1=1.148265
+Epoch[7] Batch [180]	Speed: 68.61 samples/sec	CrossEntropy=2.695326	SmoothL1=1.160652
+Epoch[7] Batch [200]	Speed: 65.22 samples/sec	CrossEntropy=2.695316	SmoothL1=1.150201
+Epoch[7] Batch [220]	Speed: 63.67 samples/sec	CrossEntropy=2.609583	SmoothL1=1.138945
+Epoch[7] Batch [240]	Speed: 65.21 samples/sec	CrossEntropy=2.600736	SmoothL1=1.142089
+Epoch[7] Batch [260]	Speed: 65.10 samples/sec	CrossEntropy=2.598967	SmoothL1=1.121436
+Epoch[7] Batch [280]	Speed: 65.91 samples/sec	CrossEntropy=2.555574	SmoothL1=1.137082
+Epoch[7] Batch [300]	Speed: 65.49 samples/sec	CrossEntropy=2.536842	SmoothL1=1.157002
+Epoch[7] Batch [320]	Speed: 67.12 samples/sec	CrossEntropy=2.516144	SmoothL1=1.115770
+Epoch[7] Batch [340]	Speed: 63.51 samples/sec	CrossEntropy=2.531890	SmoothL1=1.185373
+Epoch[7] Batch [360]	Speed: 66.73 samples/sec	CrossEntropy=2.482091	SmoothL1=1.126927
+Epoch[7] Batch [380]	Speed: 66.41 samples/sec	CrossEntropy=2.459523	SmoothL1=1.094553
+Epoch[7] Batch [400]	Speed: 67.60 samples/sec	CrossEntropy=2.458627	SmoothL1=1.124033
+Epoch[7] Train-CrossEntropy=2.431129
+Epoch[7] Train-SmoothL1=1.128680
+Epoch[7] Time cost=204.830
+Epoch[7] Validation-pedestrian=0.002521
+Epoch[7] Validation-head=0.000057
+Epoch[7] Validation-head-shouler=0.000166
+Epoch[7] Validation-upper-body=0.000993
+Epoch[7] Validation-mAP=0.000934
+Epoch[8] Batch [20]	Speed: 63.36 samples/sec	CrossEntropy=2.430069	SmoothL1=1.134901
+Epoch[8] Batch [40]	Speed: 62.94 samples/sec	CrossEntropy=2.439132	SmoothL1=1.151762
+Epoch[8] Batch [60]	Speed: 67.78 samples/sec	CrossEntropy=2.432489	SmoothL1=1.094668
+Epoch[8] Batch [80]	Speed: 66.70 samples/sec	CrossEntropy=2.424393	SmoothL1=1.144849
+Epoch[8] Batch [100]	Speed: 63.69 samples/sec	CrossEntropy=2.401848	SmoothL1=1.100262
+Epoch[8] Batch [120]	Speed: 64.80 samples/sec	CrossEntropy=2.363778	SmoothL1=1.095289
+Epoch[8] Batch [140]	Speed: 62.72 samples/sec	CrossEntropy=2.404288	SmoothL1=1.125870
+Epoch[8] Batch [160]	Speed: 66.36 samples/sec	CrossEntropy=2.350541	SmoothL1=1.071889
+Epoch[8] Batch [180]	Speed: 63.58 samples/sec	CrossEntropy=2.356880	SmoothL1=1.058086
+Epoch[8] Batch [200]	Speed: 64.00 samples/sec	CrossEntropy=2.341592	SmoothL1=1.138467
+Epoch[8] Batch [220]	Speed: 64.27 samples/sec	CrossEntropy=2.326176	SmoothL1=1.085127
+Epoch[8] Batch [240]	Speed: 67.31 samples/sec	CrossEntropy=2.343042	SmoothL1=1.089305
+Epoch[8] Batch [260]	Speed: 62.79 samples/sec	CrossEntropy=2.314599	SmoothL1=1.058837
+Epoch[8] Batch [280]	Speed: 62.82 samples/sec	CrossEntropy=2.282064	SmoothL1=1.067213
+Epoch[8] Batch [300]	Speed: 67.11 samples/sec	CrossEntropy=2.276095	SmoothL1=1.068148
+Epoch[8] Batch [320]	Speed: 65.21 samples/sec	CrossEntropy=2.301757	SmoothL1=1.078001
+Epoch[8] Batch [340]	Speed: 65.18 samples/sec	CrossEntropy=2.270286	SmoothL1=1.102227
+Epoch[8] Batch [360]	Speed: 66.12 samples/sec	CrossEntropy=2.281760	SmoothL1=1.082713
+Epoch[8] Batch [380]	Speed: 66.39 samples/sec	CrossEntropy=2.238827	SmoothL1=1.089899
+Epoch[8] Batch [400]	Speed: 69.69 samples/sec	CrossEntropy=2.239658	SmoothL1=1.119528
+Epoch[8] Train-CrossEntropy=2.235191
+Epoch[8] Train-SmoothL1=1.125663
+Epoch[8] Time cost=204.953
+Epoch[8] Validation-pedestrian=0.002112
+Epoch[8] Validation-head=0.000039
+Epoch[8] Validation-head-shouler=0.000160
+Epoch[8] Validation-upper-body=0.000425
+Epoch[8] Validation-mAP=0.000684
+Epoch[9] Batch [20]	Speed: 66.03 samples/sec	CrossEntropy=2.221343	SmoothL1=1.095751
+Epoch[9] Batch [40]	Speed: 65.55 samples/sec	CrossEntropy=2.220579	SmoothL1=1.092802
+Epoch[9] Batch [60]	Speed: 66.77 samples/sec	CrossEntropy=2.200428	SmoothL1=1.104729
+Epoch[9] Batch [80]	Speed: 67.45 samples/sec	CrossEntropy=2.189962	SmoothL1=1.070674
+Epoch[9] Batch [100]	Speed: 63.17 samples/sec	CrossEntropy=2.204132	SmoothL1=1.063201
+Epoch[9] Batch [120]	Speed: 64.06 samples/sec	CrossEntropy=2.183697	SmoothL1=1.033524
+Epoch[9] Batch [140]	Speed: 61.04 samples/sec	CrossEntropy=2.184127	SmoothL1=1.080418
+Epoch[9] Batch [160]	Speed: 63.19 samples/sec	CrossEntropy=2.181017	SmoothL1=1.063614
+Epoch[9] Batch [180]	Speed: 66.88 samples/sec	CrossEntropy=2.183747	SmoothL1=1.047534
+Epoch[9] Batch [200]	Speed: 63.61 samples/sec	CrossEntropy=2.119611	SmoothL1=1.042522
+Epoch[9] Batch [220]	Speed: 66.61 samples/sec	CrossEntropy=2.143555	SmoothL1=1.027716
+Epoch[9] Batch [240]	Speed: 65.07 samples/sec	CrossEntropy=2.139353	SmoothL1=1.076814
+Epoch[9] Batch [260]	Speed: 65.18 samples/sec	CrossEntropy=2.171294	SmoothL1=1.076843
+Epoch[9] Batch [280]	Speed: 63.01 samples/sec	CrossEntropy=2.152598	SmoothL1=1.059798
+Epoch[9] Batch [300]	Speed: 65.46 samples/sec	CrossEntropy=2.103751	SmoothL1=1.052327
+Epoch[9] Batch [320]	Speed: 64.41 samples/sec	CrossEntropy=2.120475	SmoothL1=1.049722
+Epoch[9] Batch [340]	Speed: 64.28 samples/sec	CrossEntropy=2.106518	SmoothL1=1.055001
+Epoch[9] Batch [360]	Speed: 67.61 samples/sec	CrossEntropy=2.096300	SmoothL1=1.010297
+Epoch[9] Batch [380]	Speed: 68.39 samples/sec	CrossEntropy=2.076286	SmoothL1=1.062214
+Epoch[9] Batch [400]	Speed: 71.50 samples/sec	CrossEntropy=2.093993	SmoothL1=1.063373
+Epoch[9] Train-CrossEntropy=2.105322
+Epoch[9] Train-SmoothL1=1.107258
+Epoch[9] Time cost=204.403
+Saved checkpoint to "/home/cgangee/code/ssd/output/psdbMobileNet_v2/ssd-0010.params"
+Epoch[9] Validation-pedestrian=0.002662
+Epoch[9] Validation-head=0.000043
+Epoch[9] Validation-head-shouler=0.000121
+Epoch[9] Validation-upper-body=0.000428
+Epoch[9] Validation-mAP=0.000813
+Epoch[10] Batch [20]	Speed: 66.34 samples/sec	CrossEntropy=2.087644	SmoothL1=1.051615
+Epoch[10] Batch [40]	Speed: 60.73 samples/sec	CrossEntropy=2.062954	SmoothL1=1.060955
+Epoch[10] Batch [60]	Speed: 66.30 samples/sec	CrossEntropy=2.057257	SmoothL1=1.012810
+Epoch[10] Batch [80]	Speed: 65.84 samples/sec	CrossEntropy=2.046547	SmoothL1=1.030204
+Epoch[10] Batch [100]	Speed: 63.28 samples/sec	CrossEntropy=2.048801	SmoothL1=1.065048
+Epoch[10] Batch [120]	Speed: 63.88 samples/sec	CrossEntropy=2.031922	SmoothL1=1.064324
+Epoch[10] Batch [140]	Speed: 64.91 samples/sec	CrossEntropy=2.060937	SmoothL1=1.074215
+Epoch[10] Batch [160]	Speed: 66.24 samples/sec	CrossEntropy=2.005302	SmoothL1=1.031260
+Epoch[10] Batch [180]	Speed: 67.15 samples/sec	CrossEntropy=2.038647	SmoothL1=1.031438
+Epoch[10] Batch [200]	Speed: 66.89 samples/sec	CrossEntropy=1.985977	SmoothL1=1.050952
+Epoch[10] Batch [220]	Speed: 65.25 samples/sec	CrossEntropy=2.004880	SmoothL1=1.058269
+Epoch[10] Batch [240]	Speed: 64.56 samples/sec	CrossEntropy=1.992373	SmoothL1=1.047801
+Epoch[10] Batch [260]	Speed: 63.01 samples/sec	CrossEntropy=1.999636	SmoothL1=1.029240
+Epoch[10] Batch [280]	Speed: 66.45 samples/sec	CrossEntropy=2.009137	SmoothL1=1.089925
+Epoch[10] Batch [300]	Speed: 68.01 samples/sec	CrossEntropy=1.967416	SmoothL1=1.016987
+Epoch[10] Batch [320]	Speed: 68.83 samples/sec	CrossEntropy=2.019072	SmoothL1=1.005028
+Epoch[10] Batch [340]	Speed: 66.69 samples/sec	CrossEntropy=1.972979	SmoothL1=0.995188
+Epoch[10] Batch [360]	Speed: 69.70 samples/sec	CrossEntropy=1.956955	SmoothL1=1.004430
+Epoch[10] Batch [380]	Speed: 65.28 samples/sec	CrossEntropy=1.944194	SmoothL1=1.071300
+Epoch[10] Batch [400]	Speed: 70.55 samples/sec	CrossEntropy=1.997220	SmoothL1=1.059619
+Epoch[10] Train-CrossEntropy=1.931928
+Epoch[10] Train-SmoothL1=1.034068
+Epoch[10] Time cost=202.902
+Epoch[10] Validation-pedestrian=0.005214
+Epoch[10] Validation-head=0.000087
+Epoch[10] Validation-head-shouler=0.000100
+Epoch[10] Validation-upper-body=0.000456
+Epoch[10] Validation-mAP=0.001464
+Epoch[11] Batch [20]	Speed: 62.54 samples/sec	CrossEntropy=1.947029	SmoothL1=1.032797
+Epoch[11] Batch [40]	Speed: 68.33 samples/sec	CrossEntropy=1.946636	SmoothL1=1.031696
+Epoch[11] Batch [60]	Speed: 66.80 samples/sec	CrossEntropy=1.921031	SmoothL1=0.997674
+Epoch[11] Batch [80]	Speed: 68.31 samples/sec	CrossEntropy=1.926351	SmoothL1=1.035275
+Epoch[11] Batch [100]	Speed: 64.61 samples/sec	CrossEntropy=1.916876	SmoothL1=1.014935
+Epoch[11] Batch [120]	Speed: 63.37 samples/sec	CrossEntropy=1.948908	SmoothL1=1.055659
+Epoch[11] Batch [140]	Speed: 62.92 samples/sec	CrossEntropy=1.932517	SmoothL1=1.094142
+Epoch[11] Batch [160]	Speed: 64.42 samples/sec	CrossEntropy=1.917961	SmoothL1=1.021715
+Epoch[11] Batch [180]	Speed: 66.28 samples/sec	CrossEntropy=1.873569	SmoothL1=1.010669
+Epoch[11] Batch [200]	Speed: 67.21 samples/sec	CrossEntropy=1.906471	SmoothL1=0.989652
+Epoch[11] Batch [220]	Speed: 65.45 samples/sec	CrossEntropy=1.911294	SmoothL1=1.002690
+Epoch[11] Batch [240]	Speed: 64.52 samples/sec	CrossEntropy=1.894356	SmoothL1=1.009157
+Epoch[11] Batch [260]	Speed: 64.51 samples/sec	CrossEntropy=1.916617	SmoothL1=1.057488
+Epoch[11] Batch [280]	Speed: 66.32 samples/sec	CrossEntropy=1.892847	SmoothL1=1.050914
+Epoch[11] Batch [300]	Speed: 65.15 samples/sec	CrossEntropy=1.899606	SmoothL1=1.044101
+Epoch[11] Batch [320]	Speed: 67.22 samples/sec	CrossEntropy=1.850767	SmoothL1=0.988351
+Epoch[11] Batch [340]	Speed: 64.21 samples/sec	CrossEntropy=1.879805	SmoothL1=1.016144
+Epoch[11] Batch [360]	Speed: 67.81 samples/sec	CrossEntropy=1.859122	SmoothL1=0.997709
+Epoch[11] Batch [380]	Speed: 66.57 samples/sec	CrossEntropy=1.845209	SmoothL1=1.017037
+Epoch[11] Batch [400]	Speed: 68.26 samples/sec	CrossEntropy=1.874772	SmoothL1=1.047631
+Epoch[11] Train-CrossEntropy=1.859344
+Epoch[11] Train-SmoothL1=1.011137
+Epoch[11] Time cost=203.553
+Epoch[11] Validation-pedestrian=0.004695
+Epoch[11] Validation-head=0.000080
+Epoch[11] Validation-head-shouler=0.000096
+Epoch[11] Validation-upper-body=0.000416
+Epoch[11] Validation-mAP=0.001322
+Epoch[12] Batch [20]	Speed: 63.06 samples/sec	CrossEntropy=1.827929	SmoothL1=1.017821
+Epoch[12] Batch [40]	Speed: 65.09 samples/sec	CrossEntropy=1.855154	SmoothL1=0.993656
+Epoch[12] Batch [60]	Speed: 67.77 samples/sec	CrossEntropy=1.808789	SmoothL1=0.994847
+Epoch[12] Batch [80]	Speed: 69.20 samples/sec	CrossEntropy=1.819496	SmoothL1=1.043536
+Epoch[12] Batch [100]	Speed: 65.85 samples/sec	CrossEntropy=1.835345	SmoothL1=1.019145
+Epoch[12] Batch [120]	Speed: 64.31 samples/sec	CrossEntropy=1.832296	SmoothL1=1.020088
+Epoch[12] Batch [140]	Speed: 62.22 samples/sec	CrossEntropy=1.853548	SmoothL1=1.077300
+Epoch[12] Batch [160]	Speed: 64.39 samples/sec	CrossEntropy=1.819927	SmoothL1=0.970987
+Epoch[12] Batch [180]	Speed: 67.79 samples/sec	CrossEntropy=1.807398	SmoothL1=1.001072
+Epoch[12] Batch [200]	Speed: 65.35 samples/sec	CrossEntropy=1.806472	SmoothL1=1.001109
+Epoch[12] Batch [220]	Speed: 65.33 samples/sec	CrossEntropy=1.797176	SmoothL1=0.969465
+Epoch[12] Batch [240]	Speed: 63.33 samples/sec	CrossEntropy=1.779084	SmoothL1=1.027022
+Epoch[12] Batch [260]	Speed: 69.16 samples/sec	CrossEntropy=1.775127	SmoothL1=0.982393
+Epoch[12] Batch [280]	Speed: 65.10 samples/sec	CrossEntropy=1.776365	SmoothL1=0.993984
+Epoch[12] Batch [300]	Speed: 67.47 samples/sec	CrossEntropy=1.794940	SmoothL1=1.039445
+Epoch[12] Batch [320]	Speed: 64.47 samples/sec	CrossEntropy=1.790393	SmoothL1=1.021499
+Epoch[12] Batch [340]	Speed: 64.75 samples/sec	CrossEntropy=1.781980	SmoothL1=0.978848
+Epoch[12] Batch [360]	Speed: 69.61 samples/sec	CrossEntropy=1.782753	SmoothL1=1.007031
+Epoch[12] Batch [380]	Speed: 63.48 samples/sec	CrossEntropy=1.776614	SmoothL1=1.011174
+Epoch[12] Batch [400]	Speed: 67.74 samples/sec	CrossEntropy=1.776047	SmoothL1=1.007833
+Epoch[12] Train-CrossEntropy=1.760521
+Epoch[12] Train-SmoothL1=1.086635
+Epoch[12] Time cost=203.193
+Epoch[12] Validation-pedestrian=0.006832
+Epoch[12] Validation-head=0.000065
+Epoch[12] Validation-head-shouler=0.000108
+Epoch[12] Validation-upper-body=0.000536
+Epoch[12] Validation-mAP=0.001885
+Epoch[13] Batch [20]	Speed: 68.44 samples/sec	CrossEntropy=1.774227	SmoothL1=0.993071
+Epoch[13] Batch [40]	Speed: 64.66 samples/sec	CrossEntropy=1.774643	SmoothL1=1.016253
+Epoch[13] Batch [60]	Speed: 66.92 samples/sec	CrossEntropy=1.767060	SmoothL1=1.004039
+Epoch[13] Batch [80]	Speed: 66.90 samples/sec	CrossEntropy=1.739544	SmoothL1=1.013893
+Epoch[13] Batch [100]	Speed: 64.83 samples/sec	CrossEntropy=1.749671	SmoothL1=1.012573
+Epoch[13] Batch [120]	Speed: 66.79 samples/sec	CrossEntropy=1.739753	SmoothL1=0.993622
+Epoch[13] Batch [140]	Speed: 65.05 samples/sec	CrossEntropy=1.754080	SmoothL1=1.043178
+Epoch[13] Batch [160]	Speed: 66.45 samples/sec	CrossEntropy=1.727870	SmoothL1=0.986597
+Epoch[13] Batch [180]	Speed: 67.12 samples/sec	CrossEntropy=1.728771	SmoothL1=1.019756
+Epoch[13] Batch [200]	Speed: 64.66 samples/sec	CrossEntropy=1.716248	SmoothL1=0.960368
+Epoch[13] Batch [220]	Speed: 67.63 samples/sec	CrossEntropy=1.723796	SmoothL1=0.982403
+Epoch[13] Batch [240]	Speed: 65.68 samples/sec	CrossEntropy=1.705438	SmoothL1=1.020313
+Epoch[13] Batch [260]	Speed: 62.78 samples/sec	CrossEntropy=1.717671	SmoothL1=0.992566
+Epoch[13] Batch [280]	Speed: 66.38 samples/sec	CrossEntropy=1.691797	SmoothL1=1.022282
+Epoch[13] Batch [300]	Speed: 64.75 samples/sec	CrossEntropy=1.702632	SmoothL1=1.029301
+Epoch[13] Batch [320]	Speed: 68.64 samples/sec	CrossEntropy=1.729420	SmoothL1=1.017117
+Epoch[13] Batch [340]	Speed: 68.08 samples/sec	CrossEntropy=1.704799	SmoothL1=0.996450
+Epoch[13] Batch [360]	Speed: 67.67 samples/sec	CrossEntropy=1.715288	SmoothL1=0.958961
+Epoch[13] Batch [380]	Speed: 68.49 samples/sec	CrossEntropy=1.684303	SmoothL1=0.994281
+Epoch[13] Batch [400]	Speed: 70.32 samples/sec	CrossEntropy=1.711538	SmoothL1=1.056641
+Epoch[13] Train-CrossEntropy=1.685780
+Epoch[13] Train-SmoothL1=1.019745
+Epoch[13] Time cost=201.122
+Epoch[13] Validation-pedestrian=0.004249
+Epoch[13] Validation-head=0.000072
+Epoch[13] Validation-head-shouler=0.000105
+Epoch[13] Validation-upper-body=0.000383
+Epoch[13] Validation-mAP=0.001202
+Epoch[14] Batch [20]	Speed: 62.61 samples/sec	CrossEntropy=1.707081	SmoothL1=1.025908
+Epoch[14] Batch [40]	Speed: 65.14 samples/sec	CrossEntropy=1.697432	SmoothL1=0.981816
+Epoch[14] Batch [60]	Speed: 67.63 samples/sec	CrossEntropy=1.664177	SmoothL1=0.979091
+Epoch[14] Batch [80]	Speed: 65.66 samples/sec	CrossEntropy=1.672408	SmoothL1=0.980898
+Epoch[14] Batch [100]	Speed: 63.02 samples/sec	CrossEntropy=1.660758	SmoothL1=0.998384
+Epoch[14] Batch [120]	Speed: 60.65 samples/sec	CrossEntropy=1.702279	SmoothL1=0.979544
+Epoch[14] Batch [140]	Speed: 58.89 samples/sec	CrossEntropy=1.662872	SmoothL1=1.019930
+Epoch[14] Batch [160]	Speed: 61.45 samples/sec	CrossEntropy=1.663166	SmoothL1=0.954356
+Epoch[14] Batch [180]	Speed: 55.70 samples/sec	CrossEntropy=1.653297	SmoothL1=1.021812
+Epoch[14] Batch [200]	Speed: 65.15 samples/sec	CrossEntropy=1.659441	SmoothL1=0.978004
+Epoch[14] Batch [220]	Speed: 62.33 samples/sec	CrossEntropy=1.661109	SmoothL1=0.980198
+Epoch[14] Batch [240]	Speed: 60.19 samples/sec	CrossEntropy=1.658759	SmoothL1=0.986167
+Epoch[14] Batch [260]	Speed: 61.51 samples/sec	CrossEntropy=1.656474	SmoothL1=1.021038
+Epoch[14] Batch [280]	Speed: 49.93 samples/sec	CrossEntropy=1.651129	SmoothL1=1.027240
+Epoch[14] Batch [300]	Speed: 47.24 samples/sec	CrossEntropy=1.626101	SmoothL1=0.970881
+Epoch[14] Batch [320]	Speed: 41.00 samples/sec	CrossEntropy=1.621706	SmoothL1=0.985651
+Epoch[14] Batch [340]	Speed: 37.89 samples/sec	CrossEntropy=1.618994	SmoothL1=1.001643
+Epoch[14] Batch [360]	Speed: 39.38 samples/sec	CrossEntropy=1.617430	SmoothL1=0.986661
+Epoch[14] Batch [380]	Speed: 40.21 samples/sec	CrossEntropy=1.636505	SmoothL1=1.022102
+Epoch[14] Batch [400]	Speed: 41.45 samples/sec	CrossEntropy=1.598538	SmoothL1=0.999739
+Epoch[14] Train-CrossEntropy=1.607469
+Epoch[14] Train-SmoothL1=1.011144
+Epoch[14] Time cost=249.905
+Saved checkpoint to "/home/cgangee/code/ssd/output/psdbMobileNet_v2/ssd-0015.params"
+Epoch[14] Validation-pedestrian=0.004585
+Epoch[14] Validation-head=0.000045
+Epoch[14] Validation-head-shouler=0.000109
+Epoch[14] Validation-upper-body=0.000406
+Epoch[14] Validation-mAP=0.001286
+Epoch[15] Batch [20]	Speed: 61.52 samples/sec	CrossEntropy=1.585890	SmoothL1=0.947672
+Epoch[15] Batch [40]	Speed: 67.12 samples/sec	CrossEntropy=1.623673	SmoothL1=1.036574
+Epoch[15] Batch [60]	Speed: 67.48 samples/sec	CrossEntropy=1.611362	SmoothL1=1.020959
+Epoch[15] Batch [80]	Speed: 67.57 samples/sec	CrossEntropy=1.597722	SmoothL1=1.002384
+Epoch[15] Batch [100]	Speed: 64.45 samples/sec	CrossEntropy=1.589491	SmoothL1=1.024178
+Epoch[15] Batch [120]	Speed: 65.02 samples/sec	CrossEntropy=1.597028	SmoothL1=0.972252
+Epoch[15] Batch [140]	Speed: 65.35 samples/sec	CrossEntropy=1.592491	SmoothL1=0.997417
+Epoch[15] Batch [160]	Speed: 64.23 samples/sec	CrossEntropy=1.592353	SmoothL1=1.036832
+Epoch[15] Batch [180]	Speed: 59.45 samples/sec	CrossEntropy=1.594213	SmoothL1=1.013203
+Epoch[15] Batch [200]	Speed: 64.42 samples/sec	CrossEntropy=1.575993	SmoothL1=0.974416
+Epoch[15] Batch [220]	Speed: 58.69 samples/sec	CrossEntropy=1.594818	SmoothL1=0.974271
+Epoch[15] Batch [240]	Speed: 44.55 samples/sec	CrossEntropy=1.593817	SmoothL1=1.008359
+Epoch[15] Batch [260]	Speed: 52.43 samples/sec	CrossEntropy=1.588431	SmoothL1=1.028730
+Epoch[15] Batch [280]	Speed: 66.23 samples/sec	CrossEntropy=1.571845	SmoothL1=1.031019
+Epoch[15] Batch [300]	Speed: 67.32 samples/sec	CrossEntropy=1.566001	SmoothL1=0.972300
+Epoch[15] Batch [320]	Speed: 65.80 samples/sec	CrossEntropy=1.580570	SmoothL1=0.964832
+Epoch[15] Batch [340]	Speed: 62.93 samples/sec	CrossEntropy=1.582540	SmoothL1=1.001154
+Epoch[15] Batch [360]	Speed: 63.23 samples/sec	CrossEntropy=1.556471	SmoothL1=1.016997
+Epoch[15] Batch [380]	Speed: 60.21 samples/sec	CrossEntropy=1.557207	SmoothL1=0.981411
+Epoch[15] Batch [400]	Speed: 57.35 samples/sec	CrossEntropy=1.542980	SmoothL1=0.957072
+Epoch[15] Train-CrossEntropy=1.572655
+Epoch[15] Train-SmoothL1=1.057581
+Epoch[15] Time cost=220.508
+Epoch[15] Validation-pedestrian=0.005528
+Epoch[15] Validation-head=0.000049
+Epoch[15] Validation-head-shouler=0.000098
+Epoch[15] Validation-upper-body=0.000466
+Epoch[15] Validation-mAP=0.001535
+Epoch[16] Batch [20]	Speed: 65.67 samples/sec	CrossEntropy=1.550444	SmoothL1=0.968419
+Epoch[16] Batch [40]	Speed: 65.59 samples/sec	CrossEntropy=1.559306	SmoothL1=0.992285
+Epoch[16] Batch [60]	Speed: 65.66 samples/sec	CrossEntropy=1.532623	SmoothL1=0.986640
+Epoch[16] Batch [80]	Speed: 63.48 samples/sec	CrossEntropy=1.546393	SmoothL1=0.999313
+Epoch[16] Batch [100]	Speed: 65.62 samples/sec	CrossEntropy=1.516044	SmoothL1=0.984744
+Epoch[16] Batch [120]	Speed: 67.72 samples/sec	CrossEntropy=1.529434	SmoothL1=0.961958
+Epoch[16] Batch [140]	Speed: 63.76 samples/sec	CrossEntropy=1.541736	SmoothL1=1.057718
+Epoch[16] Batch [160]	Speed: 61.46 samples/sec	CrossEntropy=1.524215	SmoothL1=0.987671
+Epoch[16] Batch [180]	Speed: 64.10 samples/sec	CrossEntropy=1.539442	SmoothL1=0.980920
+Epoch[16] Batch [200]	Speed: 67.24 samples/sec	CrossEntropy=1.521115	SmoothL1=1.002555
+Epoch[16] Batch [220]	Speed: 67.58 samples/sec	CrossEntropy=1.510012	SmoothL1=0.975474
+Epoch[16] Batch [240]	Speed: 67.07 samples/sec	CrossEntropy=1.527159	SmoothL1=0.989632
+Epoch[16] Batch [260]	Speed: 64.74 samples/sec	CrossEntropy=1.505002	SmoothL1=0.991889
+Epoch[16] Batch [280]	Speed: 65.09 samples/sec	CrossEntropy=1.510939	SmoothL1=0.973598
+Epoch[16] Batch [300]	Speed: 65.27 samples/sec	CrossEntropy=1.503657	SmoothL1=0.971810
+Epoch[16] Batch [320]	Speed: 63.36 samples/sec	CrossEntropy=1.524424	SmoothL1=1.003620
+Epoch[16] Batch [340]	Speed: 63.49 samples/sec	CrossEntropy=1.511212	SmoothL1=0.964620
+Epoch[16] Batch [360]	Speed: 64.08 samples/sec	CrossEntropy=1.498105	SmoothL1=0.928097
+Epoch[16] Batch [380]	Speed: 65.50 samples/sec	CrossEntropy=1.493148	SmoothL1=0.963432
+Epoch[16] Batch [400]	Speed: 67.93 samples/sec	CrossEntropy=1.499469	SmoothL1=1.036054
+Epoch[16] Train-CrossEntropy=1.492668
+Epoch[16] Train-SmoothL1=1.012253
+Epoch[16] Time cost=204.974
+Epoch[16] Validation-pedestrian=0.005477
+Epoch[16] Validation-head=0.000033
+Epoch[16] Validation-head-shouler=0.000126
+Epoch[16] Validation-upper-body=0.000563
+Epoch[16] Validation-mAP=0.001550
+Epoch[17] Batch [20]	Speed: 62.04 samples/sec	CrossEntropy=1.489085	SmoothL1=1.027768
+Epoch[17] Batch [40]	Speed: 63.94 samples/sec	CrossEntropy=1.491837	SmoothL1=0.989347
+Epoch[17] Batch [60]	Speed: 67.69 samples/sec	CrossEntropy=1.512439	SmoothL1=0.955762
+Epoch[17] Batch [80]	Speed: 66.24 samples/sec	CrossEntropy=1.487065	SmoothL1=0.988952
+Epoch[17] Batch [100]	Speed: 64.74 samples/sec	CrossEntropy=1.473799	SmoothL1=0.958446
+Epoch[17] Batch [120]	Speed: 68.04 samples/sec	CrossEntropy=1.472746	SmoothL1=0.952928
+Epoch[17] Batch [140]	Speed: 67.02 samples/sec	CrossEntropy=1.492483	SmoothL1=0.968687
+Epoch[17] Batch [160]	Speed: 62.64 samples/sec	CrossEntropy=1.481089	SmoothL1=0.999075
+Epoch[17] Batch [180]	Speed: 64.20 samples/sec	CrossEntropy=1.457753	SmoothL1=0.943628
+Epoch[17] Batch [200]	Speed: 66.23 samples/sec	CrossEntropy=1.466906	SmoothL1=0.977555
+Epoch[17] Batch [220]	Speed: 66.05 samples/sec	CrossEntropy=1.472585	SmoothL1=0.959690
+Epoch[17] Batch [240]	Speed: 61.97 samples/sec	CrossEntropy=1.453754	SmoothL1=0.995005
+Epoch[17] Batch [260]	Speed: 65.03 samples/sec	CrossEntropy=1.429275	SmoothL1=0.978399
+Epoch[17] Batch [280]	Speed: 64.03 samples/sec	CrossEntropy=1.475308	SmoothL1=1.031127
+Epoch[17] Batch [300]	Speed: 67.14 samples/sec	CrossEntropy=1.444492	SmoothL1=1.015123
+Epoch[17] Batch [320]	Speed: 66.52 samples/sec	CrossEntropy=1.434093	SmoothL1=0.981032
+Epoch[17] Batch [340]	Speed: 63.59 samples/sec	CrossEntropy=1.450840	SmoothL1=1.014241
+Epoch[17] Batch [360]	Speed: 66.32 samples/sec	CrossEntropy=1.459612	SmoothL1=0.959318
+Epoch[17] Batch [380]	Speed: 67.84 samples/sec	CrossEntropy=1.443819	SmoothL1=1.015949
+Epoch[17] Batch [400]	Speed: 70.49 samples/sec	CrossEntropy=1.437711	SmoothL1=0.958487
+Epoch[17] Train-CrossEntropy=1.432927
+Epoch[17] Train-SmoothL1=1.020491
+Epoch[17] Time cost=204.023
+Epoch[17] Validation-pedestrian=0.006181
+Epoch[17] Validation-head=0.000113
+Epoch[17] Validation-head-shouler=0.000111
+Epoch[17] Validation-upper-body=0.000531
+Epoch[17] Validation-mAP=0.001734
+Epoch[18] Batch [20]	Speed: 62.48 samples/sec	CrossEntropy=1.436956	SmoothL1=0.994435
+Epoch[18] Batch [40]	Speed: 64.17 samples/sec	CrossEntropy=1.420308	SmoothL1=0.971203
+Epoch[18] Batch [60]	Speed: 65.04 samples/sec	CrossEntropy=1.431417	SmoothL1=0.989461
+Epoch[18] Batch [80]	Speed: 69.89 samples/sec	CrossEntropy=1.452347	SmoothL1=0.981129
+Epoch[18] Batch [100]	Speed: 65.17 samples/sec	CrossEntropy=1.410803	SmoothL1=0.943660
+Epoch[18] Batch [120]	Speed: 65.79 samples/sec	CrossEntropy=1.438775	SmoothL1=0.943467
+Epoch[18] Batch [140]	Speed: 63.46 samples/sec	CrossEntropy=1.424218	SmoothL1=1.022484
+Epoch[18] Batch [160]	Speed: 67.14 samples/sec	CrossEntropy=1.426210	SmoothL1=1.006198
+Epoch[18] Batch [180]	Speed: 64.38 samples/sec	CrossEntropy=1.408664	SmoothL1=0.971545
+Epoch[18] Batch [200]	Speed: 62.17 samples/sec	CrossEntropy=1.382677	SmoothL1=0.952550
+Epoch[18] Batch [220]	Speed: 61.98 samples/sec	CrossEntropy=1.410428	SmoothL1=0.952390
+Epoch[18] Batch [240]	Speed: 58.09 samples/sec	CrossEntropy=1.405016	SmoothL1=0.971872
+Epoch[18] Batch [260]	Speed: 53.70 samples/sec	CrossEntropy=1.398827	SmoothL1=0.967266
+Epoch[18] Batch [280]	Speed: 66.75 samples/sec	CrossEntropy=1.407952	SmoothL1=0.984914
+Epoch[18] Batch [300]	Speed: 64.17 samples/sec	CrossEntropy=1.402614	SmoothL1=1.004815
+Epoch[18] Batch [320]	Speed: 68.16 samples/sec	CrossEntropy=1.395382	SmoothL1=0.964939
+Epoch[18] Batch [340]	Speed: 66.07 samples/sec	CrossEntropy=1.404729	SmoothL1=1.015039
+Epoch[18] Batch [360]	Speed: 66.45 samples/sec	CrossEntropy=1.380088	SmoothL1=0.959790
+Epoch[18] Batch [380]	Speed: 64.19 samples/sec	CrossEntropy=1.405372	SmoothL1=0.931449
+Epoch[18] Batch [400]	Speed: 63.40 samples/sec	CrossEntropy=1.374828	SmoothL1=0.953510
+Epoch[18] Train-CrossEntropy=1.405437
+Epoch[18] Train-SmoothL1=1.046766
+Epoch[18] Time cost=210.638
+Epoch[18] Validation-pedestrian=0.005022
+Epoch[18] Validation-head=0.000116
+Epoch[18] Validation-head-shouler=0.000120
+Epoch[18] Validation-upper-body=0.000485
+Epoch[18] Validation-mAP=0.001436
+Epoch[19] Batch [20]	Speed: 59.35 samples/sec	CrossEntropy=1.383293	SmoothL1=0.981097
+Epoch[19] Batch [40]	Speed: 44.94 samples/sec	CrossEntropy=1.388497	SmoothL1=1.012982
+Epoch[19] Batch [60]	Speed: 43.17 samples/sec	CrossEntropy=1.367835	SmoothL1=0.968616
+Epoch[19] Batch [80]	Speed: 36.16 samples/sec	CrossEntropy=1.378422	SmoothL1=0.976520
+Epoch[19] Batch [100]	Speed: 38.91 samples/sec	CrossEntropy=1.378755	SmoothL1=0.940789
+Epoch[19] Batch [120]	Speed: 39.26 samples/sec	CrossEntropy=1.380800	SmoothL1=1.041468
+Epoch[19] Batch [140]	Speed: 43.00 samples/sec	CrossEntropy=1.385604	SmoothL1=1.029750
+Epoch[19] Batch [160]	Speed: 39.24 samples/sec	CrossEntropy=1.376356	SmoothL1=0.922684
+Epoch[19] Batch [180]	Speed: 39.51 samples/sec	CrossEntropy=1.369121	SmoothL1=0.990485
+Epoch[19] Batch [200]	Speed: 42.16 samples/sec	CrossEntropy=1.379864	SmoothL1=1.004466
+Epoch[19] Batch [220]	Speed: 41.99 samples/sec	CrossEntropy=1.371440	SmoothL1=0.976086
+Epoch[19] Batch [240]	Speed: 41.77 samples/sec	CrossEntropy=1.356896	SmoothL1=0.933252
+Epoch[19] Batch [260]	Speed: 39.01 samples/sec	CrossEntropy=1.346871	SmoothL1=0.983787
+Epoch[19] Batch [280]	Speed: 42.33 samples/sec	CrossEntropy=1.360837	SmoothL1=0.990371
+Epoch[19] Batch [300]	Speed: 42.17 samples/sec	CrossEntropy=1.346603	SmoothL1=0.989412
+Epoch[19] Batch [320]	Speed: 39.79 samples/sec	CrossEntropy=1.345448	SmoothL1=0.954483
+Epoch[19] Batch [340]	Speed: 50.71 samples/sec	CrossEntropy=1.338429	SmoothL1=0.982567
+Epoch[19] Batch [360]	Speed: 65.90 samples/sec	CrossEntropy=1.347128	SmoothL1=0.952839
+Epoch[19] Batch [380]	Speed: 61.72 samples/sec	CrossEntropy=1.336910	SmoothL1=1.007317
+Epoch[19] Batch [400]	Speed: 67.57 samples/sec	CrossEntropy=1.327998	SmoothL1=0.951990
+Epoch[19] Train-CrossEntropy=1.334386
+Epoch[19] Train-SmoothL1=1.008093
+Epoch[19] Time cost=299.507
+Saved checkpoint to "/home/cgangee/code/ssd/output/psdbMobileNet_v2/ssd-0020.params"
+Epoch[19] Validation-pedestrian=0.005675
+Epoch[19] Validation-head=0.000058
+Epoch[19] Validation-head-shouler=0.000138
+Epoch[19] Validation-upper-body=0.000525
+Epoch[19] Validation-mAP=0.001599
+Epoch[20] Batch [20]	Speed: 41.10 samples/sec	CrossEntropy=1.333516	SmoothL1=0.965051
+Epoch[20] Batch [40]	Speed: 37.78 samples/sec	CrossEntropy=1.342782	SmoothL1=0.980955
+Epoch[20] Batch [60]	Speed: 37.83 samples/sec	CrossEntropy=1.333502	SmoothL1=0.965142
+Epoch[20] Batch [80]	Speed: 43.41 samples/sec	CrossEntropy=1.328951	SmoothL1=0.953454
+Epoch[20] Batch [100]	Speed: 42.57 samples/sec	CrossEntropy=1.335884	SmoothL1=0.957850
+Epoch[20] Batch [120]	Speed: 42.03 samples/sec	CrossEntropy=1.328704	SmoothL1=0.943531
+Epoch[20] Batch [140]	Speed: 43.01 samples/sec	CrossEntropy=1.327890	SmoothL1=0.988449
+Epoch[20] Batch [160]	Speed: 47.32 samples/sec	CrossEntropy=1.310407	SmoothL1=0.920763
+Epoch[20] Batch [180]	Speed: 41.89 samples/sec	CrossEntropy=1.317893	SmoothL1=0.972135
+Epoch[20] Batch [200]	Speed: 43.70 samples/sec	CrossEntropy=1.320424	SmoothL1=0.949580
+Epoch[20] Batch [220]	Speed: 41.31 samples/sec	CrossEntropy=1.322077	SmoothL1=0.979452
+Epoch[20] Batch [240]	Speed: 54.51 samples/sec	CrossEntropy=1.311493	SmoothL1=0.939447
+Epoch[20] Batch [260]	Speed: 56.49 samples/sec	CrossEntropy=1.326047	SmoothL1=0.971888
+Epoch[20] Batch [280]	Speed: 54.94 samples/sec	CrossEntropy=1.332554	SmoothL1=0.999765
+Epoch[20] Batch [300]	Speed: 55.99 samples/sec	CrossEntropy=1.309247	SmoothL1=1.007926
+Epoch[20] Batch [320]	Speed: 56.14 samples/sec	CrossEntropy=1.300042	SmoothL1=0.949182
+Epoch[20] Batch [340]	Speed: 58.03 samples/sec	CrossEntropy=1.313635	SmoothL1=0.951149
+Epoch[20] Batch [360]	Speed: 56.89 samples/sec	CrossEntropy=1.318129	SmoothL1=1.000465
+Epoch[20] Batch [380]	Speed: 56.96 samples/sec	CrossEntropy=1.303555	SmoothL1=0.920679
+Epoch[20] Batch [400]	Speed: 60.25 samples/sec	CrossEntropy=1.312274	SmoothL1=0.974029
+Epoch[20] Train-CrossEntropy=1.311220
+Epoch[20] Train-SmoothL1=1.016766
+Epoch[20] Time cost=282.854
+Epoch[20] Validation-pedestrian=0.006855
+Epoch[20] Validation-head=0.000089
+Epoch[20] Validation-head-shouler=0.000101
+Epoch[20] Validation-upper-body=0.000519
+Epoch[20] Validation-mAP=0.001891
+Epoch[21] Batch [20]	Speed: 39.83 samples/sec	CrossEntropy=1.305433	SmoothL1=1.024369
+Epoch[21] Batch [40]	Speed: 43.44 samples/sec	CrossEntropy=1.307540	SmoothL1=1.013412
+Epoch[21] Batch [60]	Speed: 42.81 samples/sec	CrossEntropy=1.282419	SmoothL1=0.973690
+Epoch[21] Batch [80]	Speed: 40.47 samples/sec	CrossEntropy=1.307661	SmoothL1=0.983150
+Epoch[21] Batch [100]	Speed: 45.03 samples/sec	CrossEntropy=1.297912	SmoothL1=0.954657
+Epoch[21] Batch [120]	Speed: 36.79 samples/sec	CrossEntropy=1.290941	SmoothL1=0.982896
+Epoch[21] Batch [140]	Speed: 40.91 samples/sec	CrossEntropy=1.304555	SmoothL1=0.996291
+Epoch[21] Batch [160]	Speed: 41.74 samples/sec	CrossEntropy=1.292126	SmoothL1=0.963074
+Epoch[21] Batch [180]	Speed: 42.22 samples/sec	CrossEntropy=1.297859	SmoothL1=0.961274
+Epoch[21] Batch [200]	Speed: 51.65 samples/sec	CrossEntropy=1.281603	SmoothL1=0.958506
+Epoch[21] Batch [220]	Speed: 56.46 samples/sec	CrossEntropy=1.278231	SmoothL1=0.949335
+Epoch[21] Batch [240]	Speed: 56.28 samples/sec	CrossEntropy=1.284255	SmoothL1=0.959662
+Epoch[21] Batch [260]	Speed: 58.92 samples/sec	CrossEntropy=1.284015	SmoothL1=0.982739
+Epoch[21] Batch [280]	Speed: 54.33 samples/sec	CrossEntropy=1.268120	SmoothL1=0.974647
+Epoch[21] Batch [300]	Speed: 57.10 samples/sec	CrossEntropy=1.281648	SmoothL1=0.982495
+Epoch[21] Batch [320]	Speed: 57.10 samples/sec	CrossEntropy=1.284779	SmoothL1=0.973323
+Epoch[21] Batch [340]	Speed: 55.23 samples/sec	CrossEntropy=1.283625	SmoothL1=1.002152
+Epoch[21] Batch [360]	Speed: 59.30 samples/sec	CrossEntropy=1.255478	SmoothL1=0.947579
+Epoch[21] Batch [380]	Speed: 40.47 samples/sec	CrossEntropy=1.258140	SmoothL1=0.926169
+Epoch[21] Batch [400]	Speed: 42.08 samples/sec	CrossEntropy=1.269283	SmoothL1=0.971346
+Epoch[21] Train-CrossEntropy=1.267719
+Epoch[21] Train-SmoothL1=0.967702
+Epoch[21] Time cost=286.905
+Epoch[21] Validation-pedestrian=0.006165
+Epoch[21] Validation-head=0.000025
+Epoch[21] Validation-head-shouler=0.000091
+Epoch[21] Validation-upper-body=0.000441
+Epoch[21] Validation-mAP=0.001680
+Epoch[22] Batch [20]	Speed: 64.51 samples/sec	CrossEntropy=1.253088	SmoothL1=0.969571
+Epoch[22] Batch [40]	Speed: 66.35 samples/sec	CrossEntropy=1.250384	SmoothL1=0.994369
+Epoch[22] Batch [60]	Speed: 70.02 samples/sec	CrossEntropy=1.259115	SmoothL1=0.982122
+Epoch[22] Batch [80]	Speed: 66.64 samples/sec	CrossEntropy=1.248716	SmoothL1=0.958395
+Epoch[22] Batch [100]	Speed: 69.89 samples/sec	CrossEntropy=1.255787	SmoothL1=0.973840
+Epoch[22] Batch [120]	Speed: 66.51 samples/sec	CrossEntropy=1.255650	SmoothL1=0.988971
+Epoch[22] Batch [140]	Speed: 68.48 samples/sec	CrossEntropy=1.250334	SmoothL1=0.954226
+Epoch[22] Batch [160]	Speed: 70.39 samples/sec	CrossEntropy=1.249678	SmoothL1=0.931168
+Epoch[22] Batch [180]	Speed: 68.94 samples/sec	CrossEntropy=1.252636	SmoothL1=0.964261
+Epoch[22] Batch [200]	Speed: 63.23 samples/sec	CrossEntropy=1.238496	SmoothL1=0.947909
+Epoch[22] Batch [220]	Speed: 61.31 samples/sec	CrossEntropy=1.243228	SmoothL1=0.970130
+Epoch[22] Batch [240]	Speed: 56.22 samples/sec	CrossEntropy=1.237158	SmoothL1=0.955200
+Epoch[22] Batch [260]	Speed: 47.11 samples/sec	CrossEntropy=1.247737	SmoothL1=0.988863
+Epoch[22] Batch [280]	Speed: 42.59 samples/sec	CrossEntropy=1.228683	SmoothL1=0.958004
+Epoch[22] Batch [300]	Speed: 44.82 samples/sec	CrossEntropy=1.248479	SmoothL1=1.032909
+Epoch[22] Batch [320]	Speed: 48.59 samples/sec	CrossEntropy=1.232088	SmoothL1=0.958733
+Epoch[22] Batch [340]	Speed: 44.43 samples/sec	CrossEntropy=1.235143	SmoothL1=0.927397
+Epoch[22] Batch [360]	Speed: 39.43 samples/sec	CrossEntropy=1.229059	SmoothL1=0.968201
+Epoch[22] Batch [380]	Speed: 40.62 samples/sec	CrossEntropy=1.223407	SmoothL1=0.967124
+Epoch[22] Batch [400]	Speed: 44.36 samples/sec	CrossEntropy=1.229767	SmoothL1=0.972195
+Epoch[22] Train-CrossEntropy=1.220053
+Epoch[22] Train-SmoothL1=1.006686
+Epoch[22] Time cost=246.396
+Epoch[22] Validation-pedestrian=0.006448
+Epoch[22] Validation-head=0.000026
+Epoch[22] Validation-head-shouler=0.000077
+Epoch[22] Validation-upper-body=0.000530
+Epoch[22] Validation-mAP=0.001770
+Epoch[23] Batch [20]	Speed: 42.62 samples/sec	CrossEntropy=1.225387	SmoothL1=0.974137
+Epoch[23] Batch [40]	Speed: 47.48 samples/sec	CrossEntropy=1.206202	SmoothL1=0.928638
+Epoch[23] Batch [60]	Speed: 46.38 samples/sec	CrossEntropy=1.226450	SmoothL1=0.968224
+Epoch[23] Batch [80]	Speed: 54.54 samples/sec	CrossEntropy=1.222018	SmoothL1=0.968755
+Epoch[23] Batch [100]	Speed: 57.41 samples/sec	CrossEntropy=1.216298	SmoothL1=0.956098
+Epoch[23] Batch [120]	Speed: 55.66 samples/sec	CrossEntropy=1.215859	SmoothL1=0.953454
+Epoch[23] Batch [140]	Speed: 58.83 samples/sec	CrossEntropy=1.219172	SmoothL1=1.002424
+Epoch[23] Batch [160]	Speed: 54.26 samples/sec	CrossEntropy=1.218817	SmoothL1=0.967846
+Epoch[23] Batch [180]	Speed: 57.59 samples/sec	CrossEntropy=1.197445	SmoothL1=0.941038
+Epoch[23] Batch [200]	Speed: 58.34 samples/sec	CrossEntropy=1.213296	SmoothL1=0.940492
+Epoch[23] Batch [220]	Speed: 60.63 samples/sec	CrossEntropy=1.202094	SmoothL1=0.919884
+Epoch[23] Batch [240]	Speed: 41.18 samples/sec	CrossEntropy=1.216715	SmoothL1=0.953634
+Epoch[23] Batch [260]	Speed: 43.07 samples/sec	CrossEntropy=1.203020	SmoothL1=0.971939
+Epoch[23] Batch [280]	Speed: 41.59 samples/sec	CrossEntropy=1.219127	SmoothL1=1.014649
+Epoch[23] Batch [300]	Speed: 40.61 samples/sec	CrossEntropy=1.216812	SmoothL1=1.037484
+Epoch[23] Batch [320]	Speed: 42.14 samples/sec	CrossEntropy=1.199498	SmoothL1=0.928943
+Epoch[23] Batch [340]	Speed: 43.88 samples/sec	CrossEntropy=1.198784	SmoothL1=0.980185
+Epoch[23] Batch [360]	Speed: 41.88 samples/sec	CrossEntropy=1.203599	SmoothL1=0.968912
+Epoch[23] Batch [380]	Speed: 44.55 samples/sec	CrossEntropy=1.206705	SmoothL1=0.972934
+Epoch[23] Batch [400]	Speed: 46.70 samples/sec	CrossEntropy=1.207607	SmoothL1=0.968446
+Epoch[23] Train-CrossEntropy=1.189163
+Epoch[23] Train-SmoothL1=0.970350
+Epoch[23] Time cost=279.332
+Epoch[23] Validation-pedestrian=0.005224
+Epoch[23] Validation-head=0.000017
+Epoch[23] Validation-head-shouler=0.000060
+Epoch[23] Validation-upper-body=0.000431
+Epoch[23] Validation-mAP=0.001433
+Epoch[24] Batch [20]	Speed: 44.39 samples/sec	CrossEntropy=1.200148	SmoothL1=0.972046
+Epoch[24] Batch [40]	Speed: 40.97 samples/sec	CrossEntropy=1.194962	SmoothL1=0.991968
+Epoch[24] Batch [60]	Speed: 52.39 samples/sec	CrossEntropy=1.178059	SmoothL1=0.950562
+Epoch[24] Batch [80]	Speed: 55.40 samples/sec	CrossEntropy=1.183586	SmoothL1=0.926427
+Epoch[24] Batch [100]	Speed: 54.04 samples/sec	CrossEntropy=1.192252	SmoothL1=0.991355
+Epoch[24] Batch [120]	Speed: 54.03 samples/sec	CrossEntropy=1.182038	SmoothL1=0.964110
+Epoch[24] Batch [140]	Speed: 56.46 samples/sec	CrossEntropy=1.174617	SmoothL1=0.970451
+Epoch[24] Batch [160]	Speed: 58.80 samples/sec	CrossEntropy=1.192009	SmoothL1=0.971088
+Epoch[24] Batch [180]	Speed: 59.73 samples/sec	CrossEntropy=1.184456	SmoothL1=0.929650

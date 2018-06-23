@@ -1,0 +1,208 @@
+network=mobilenet_cut
+args.rec_path=/media/cgangee/OTHERS/mxnet-ssd/data/psdb/val.rec
+num_class=4
+args.mean_r=123
+args.mean_g=117
+args.mean_b=104
+args.data_shape=300
+prefix=/media/cgangee/OTHERS/mxnet-ssd/output/psdbMobileNet_cut/ssd
+args.epoch=240
+ctx=[gpu(0)]
+batch_size=1
+path_imglist=
+nms_thresh=0.45
+force_nms=False
+ovp_thresh=0.5
+use_difficult=False
+class_names=['pedestrian', 'head', 'head-shouler', 'upper-body']
+voc07_metric=True
+frequent=20
+[20:44:55] src/io/iter_image_det_recordio.cc:281: ImageDetRecordIOParser: /media/cgangee/OTHERS/mxnet-ssd/data/psdb/val.rec, use 7 threads for decoding..
+[20:44:55] src/io/iter_image_det_recordio.cc:334: ImageDetRecordIOParser: /media/cgangee/OTHERS/mxnet-ssd/data/psdb/val.rec, label padding width: 506
+7
+[0.15, 0.3, 0.45, 0.6, 0.75, 0.9]
+[0.3, 0.45, 0.6, 0.75, 0.9, 1.05]
+[0.07, 0.15, 0.3, 0.45, 0.6, 0.75, 0.9]
+[0.15, 0.3, 0.45, 0.6, 0.75, 0.9, 1.05]
+[[0.07, 0.10246951], [0.15, 0.21213204], [0.3, 0.36742347], [0.45, 0.51961523], [0.6, 0.67082042], [0.75, 0.82158381], [0.9, 0.97211111]]
+[20:44:56] src/operator/nn/./cudnn/./cudnn_algoreg-inl.h:107: Running performance tests to find the best convolution algorithm, this can take a while... (setting env variable MXNET_CUDNN_AUTOTUNE_DEFAULT to 0 to disable)
+INFO:root:Epoch[0] Batch [20]	Speed: 76.37 samples/sec	pedestrian=0.793038	head=0.524858	head-shouler=0.553892	upper-body=0.609343	mAP=0.620283
+INFO:root:Epoch[0] Batch [40]	Speed: 93.79 samples/sec	pedestrian=0.825860	head=0.603337	head-shouler=0.612082	upper-body=0.729686	mAP=0.692741
+INFO:root:Epoch[0] Batch [60]	Speed: 64.53 samples/sec	pedestrian=0.654224	head=0.425914	head-shouler=0.513473	upper-body=0.598737	mAP=0.548087
+INFO:root:Epoch[0] Batch [80]	Speed: 86.14 samples/sec	pedestrian=0.650934	head=0.399817	head-shouler=0.493705	upper-body=0.598096	mAP=0.535638
+INFO:root:Epoch[0] Batch [100]	Speed: 107.56 samples/sec	pedestrian=0.683160	head=0.413207	head-shouler=0.508139	upper-body=0.630919	mAP=0.558856
+INFO:root:Epoch[0] Batch [120]	Speed: 94.22 samples/sec	pedestrian=0.704579	head=0.424198	head-shouler=0.515996	upper-body=0.639611	mAP=0.571096
+INFO:root:Epoch[0] Batch [140]	Speed: 86.68 samples/sec	pedestrian=0.727364	head=0.431979	head-shouler=0.532190	upper-body=0.671155	mAP=0.590672
+INFO:root:Epoch[0] Batch [160]	Speed: 97.28 samples/sec	pedestrian=0.727512	head=0.436945	head-shouler=0.535099	upper-body=0.671367	mAP=0.592731
+INFO:root:Epoch[0] Batch [180]	Speed: 97.09 samples/sec	pedestrian=0.742475	head=0.454501	head-shouler=0.575285	upper-body=0.685001	mAP=0.614315
+INFO:root:Epoch[0] Batch [200]	Speed: 68.53 samples/sec	pedestrian=0.736499	head=0.451096	head-shouler=0.577835	upper-body=0.678003	mAP=0.610858
+INFO:root:Epoch[0] Batch [220]	Speed: 86.25 samples/sec	pedestrian=0.744115	head=0.450409	head-shouler=0.587586	upper-body=0.682461	mAP=0.616143
+INFO:root:Epoch[0] Batch [240]	Speed: 94.84 samples/sec	pedestrian=0.736536	head=0.419454	head-shouler=0.578819	upper-body=0.673183	mAP=0.601998
+INFO:root:Epoch[0] Batch [260]	Speed: 79.14 samples/sec	pedestrian=0.737497	head=0.415729	head-shouler=0.582547	upper-body=0.676803	mAP=0.603144
+INFO:root:Epoch[0] Batch [280]	Speed: 84.33 samples/sec	pedestrian=0.740383	head=0.414501	head-shouler=0.573695	upper-body=0.678791	mAP=0.601843
+INFO:root:Epoch[0] Batch [300]	Speed: 87.41 samples/sec	pedestrian=0.742965	head=0.419355	head-shouler=0.582251	upper-body=0.685711	mAP=0.607571
+INFO:root:Epoch[0] Batch [320]	Speed: 86.97 samples/sec	pedestrian=0.746006	head=0.437215	head-shouler=0.585256	upper-body=0.690043	mAP=0.614630
+INFO:root:Epoch[0] Batch [340]	Speed: 86.83 samples/sec	pedestrian=0.749066	head=0.455364	head-shouler=0.589889	upper-body=0.695174	mAP=0.622373
+INFO:root:Epoch[0] Batch [360]	Speed: 81.52 samples/sec	pedestrian=0.750771	head=0.463083	head-shouler=0.595882	upper-body=0.701927	mAP=0.627916
+INFO:root:Epoch[0] Batch [380]	Speed: 72.02 samples/sec	pedestrian=0.755099	head=0.474347	head-shouler=0.603847	upper-body=0.706502	mAP=0.634949
+INFO:root:Epoch[0] Batch [400]	Speed: 81.49 samples/sec	pedestrian=0.753423	head=0.477313	head-shouler=0.605593	upper-body=0.710017	mAP=0.636586
+INFO:root:Epoch[0] Batch [420]	Speed: 80.87 samples/sec	pedestrian=0.755961	head=0.485143	head-shouler=0.610613	upper-body=0.713589	mAP=0.641326
+INFO:root:Epoch[0] Batch [440]	Speed: 78.33 samples/sec	pedestrian=0.752081	head=0.496464	head-shouler=0.612973	upper-body=0.715462	mAP=0.644245
+INFO:root:Epoch[0] Batch [460]	Speed: 79.65 samples/sec	pedestrian=0.752284	head=0.498943	head-shouler=0.617580	upper-body=0.719227	mAP=0.647009
+INFO:root:Epoch[0] Batch [480]	Speed: 65.20 samples/sec	pedestrian=0.756251	head=0.504264	head-shouler=0.618079	upper-body=0.719684	mAP=0.649570
+INFO:root:Epoch[0] Batch [500]	Speed: 81.61 samples/sec	pedestrian=0.758837	head=0.512008	head-shouler=0.623242	upper-body=0.721493	mAP=0.653895
+INFO:root:Epoch[0] Batch [520]	Speed: 79.17 samples/sec	pedestrian=0.757710	head=0.517511	head-shouler=0.627106	upper-body=0.723991	mAP=0.656579
+INFO:root:Epoch[0] Batch [540]	Speed: 81.44 samples/sec	pedestrian=0.754549	head=0.520591	head-shouler=0.624484	upper-body=0.724235	mAP=0.655965
+INFO:root:Epoch[0] Batch [560]	Speed: 72.11 samples/sec	pedestrian=0.753584	head=0.521708	head-shouler=0.623129	upper-body=0.724982	mAP=0.655851
+INFO:root:Epoch[0] Batch [580]	Speed: 80.75 samples/sec	pedestrian=0.754421	head=0.523818	head-shouler=0.623295	upper-body=0.723836	mAP=0.656342
+INFO:root:Epoch[0] Batch [600]	Speed: 76.79 samples/sec	pedestrian=0.748157	head=0.524260	head-shouler=0.620435	upper-body=0.720989	mAP=0.653460
+INFO:root:Epoch[0] Batch [620]	Speed: 76.68 samples/sec	pedestrian=0.746433	head=0.525752	head-shouler=0.617733	upper-body=0.719749	mAP=0.652417
+INFO:root:Epoch[0] Batch [640]	Speed: 77.71 samples/sec	pedestrian=0.744778	head=0.523569	head-shouler=0.616193	upper-body=0.715412	mAP=0.649988
+INFO:root:Epoch[0] Batch [660]	Speed: 68.45 samples/sec	pedestrian=0.743627	head=0.525144	head-shouler=0.615460	upper-body=0.715057	mAP=0.649822
+INFO:root:Epoch[0] Batch [680]	Speed: 77.74 samples/sec	pedestrian=0.741743	head=0.525036	head-shouler=0.613451	upper-body=0.714368	mAP=0.648650
+INFO:root:Epoch[0] Batch [700]	Speed: 66.13 samples/sec	pedestrian=0.739498	head=0.526152	head-shouler=0.612159	upper-body=0.711369	mAP=0.647294
+INFO:root:Epoch[0] Batch [720]	Speed: 80.06 samples/sec	pedestrian=0.735951	head=0.527141	head-shouler=0.612224	upper-body=0.710595	mAP=0.646478
+INFO:root:Epoch[0] Batch [740]	Speed: 83.94 samples/sec	pedestrian=0.732771	head=0.529138	head-shouler=0.613661	upper-body=0.711297	mAP=0.646717
+INFO:root:Epoch[0] Batch [760]	Speed: 79.25 samples/sec	pedestrian=0.727902	head=0.526925	head-shouler=0.609273	upper-body=0.708586	mAP=0.643171
+INFO:root:Epoch[0] Batch [780]	Speed: 79.92 samples/sec	pedestrian=0.728173	head=0.528182	head-shouler=0.610003	upper-body=0.708073	mAP=0.643608
+INFO:root:Epoch[0] Batch [800]	Speed: 77.76 samples/sec	pedestrian=0.724595	head=0.526217	head-shouler=0.606209	upper-body=0.703634	mAP=0.640164
+INFO:root:Epoch[0] Batch [820]	Speed: 81.63 samples/sec	pedestrian=0.720695	head=0.523742	head-shouler=0.603223	upper-body=0.700712	mAP=0.637093
+INFO:root:Epoch[0] Batch [840]	Speed: 67.31 samples/sec	pedestrian=0.719230	head=0.524309	head-shouler=0.603051	upper-body=0.698355	mAP=0.636236
+INFO:root:Epoch[0] Batch [860]	Speed: 80.04 samples/sec	pedestrian=0.718328	head=0.524810	head-shouler=0.604007	upper-body=0.698396	mAP=0.636385
+INFO:root:Epoch[0] Batch [880]	Speed: 66.58 samples/sec	pedestrian=0.718651	head=0.526004	head-shouler=0.604813	upper-body=0.699143	mAP=0.637153
+INFO:root:Epoch[0] Batch [900]	Speed: 75.50 samples/sec	pedestrian=0.719074	head=0.529584	head-shouler=0.605811	upper-body=0.700855	mAP=0.638831
+INFO:root:Epoch[0] Batch [920]	Speed: 67.64 samples/sec	pedestrian=0.718612	head=0.530129	head-shouler=0.606908	upper-body=0.701721	mAP=0.639343
+INFO:root:Epoch[0] Batch [940]	Speed: 85.46 samples/sec	pedestrian=0.719301	head=0.529738	head-shouler=0.606784	upper-body=0.701350	mAP=0.639293
+INFO:root:Epoch[0] Batch [960]	Speed: 72.37 samples/sec	pedestrian=0.720610	head=0.531406	head-shouler=0.607998	upper-body=0.703161	mAP=0.640794
+INFO:root:Epoch[0] Batch [980]	Speed: 94.58 samples/sec	pedestrian=0.722130	head=0.532004	head-shouler=0.609711	upper-body=0.704923	mAP=0.642192
+INFO:root:Epoch[0] Batch [1000]	Speed: 74.08 samples/sec	pedestrian=0.724522	head=0.533014	head-shouler=0.611980	upper-body=0.706643	mAP=0.644040
+INFO:root:Epoch[0] Batch [1020]	Speed: 93.27 samples/sec	pedestrian=0.726167	head=0.535107	head-shouler=0.612813	upper-body=0.708424	mAP=0.645628
+INFO:root:Epoch[0] Batch [1040]	Speed: 76.08 samples/sec	pedestrian=0.727785	head=0.537247	head-shouler=0.614490	upper-body=0.709883	mAP=0.647351
+INFO:root:Epoch[0] Batch [1060]	Speed: 82.17 samples/sec	pedestrian=0.728800	head=0.537403	head-shouler=0.613854	upper-body=0.711181	mAP=0.647809
+INFO:root:Epoch[0] Batch [1080]	Speed: 69.23 samples/sec	pedestrian=0.730210	head=0.537463	head-shouler=0.614506	upper-body=0.712392	mAP=0.648643
+INFO:root:Epoch[0] Batch [1100]	Speed: 89.57 samples/sec	pedestrian=0.730881	head=0.538272	head-shouler=0.614253	upper-body=0.713201	mAP=0.649152
+INFO:root:Epoch[0] Batch [1120]	Speed: 83.86 samples/sec	pedestrian=0.730972	head=0.538071	head-shouler=0.615766	upper-body=0.713862	mAP=0.649668
+INFO:root:Epoch[0] Batch [1140]	Speed: 85.40 samples/sec	pedestrian=0.732117	head=0.539996	head-shouler=0.615478	upper-body=0.713430	mAP=0.650255
+INFO:root:Epoch[0] Batch [1160]	Speed: 83.71 samples/sec	pedestrian=0.734610	head=0.542766	head-shouler=0.616804	upper-body=0.715195	mAP=0.652344
+INFO:root:Epoch[0] Batch [1180]	Speed: 82.09 samples/sec	pedestrian=0.735119	head=0.542462	head-shouler=0.616737	upper-body=0.715303	mAP=0.652405
+INFO:root:Epoch[0] Batch [1200]	Speed: 69.90 samples/sec	pedestrian=0.735570	head=0.542074	head-shouler=0.615952	upper-body=0.716185	mAP=0.652445
+INFO:root:Epoch[0] Batch [1220]	Speed: 88.50 samples/sec	pedestrian=0.735843	head=0.540466	head-shouler=0.614510	upper-body=0.714607	mAP=0.651356
+INFO:root:Epoch[0] Batch [1240]	Speed: 90.67 samples/sec	pedestrian=0.736792	head=0.540977	head-shouler=0.616289	upper-body=0.715459	mAP=0.652379
+INFO:root:Epoch[0] Batch [1260]	Speed: 77.35 samples/sec	pedestrian=0.732766	head=0.537383	head-shouler=0.611986	upper-body=0.709217	mAP=0.647838
+INFO:root:Epoch[0] Batch [1280]	Speed: 81.93 samples/sec	pedestrian=0.732125	head=0.533764	head-shouler=0.611270	upper-body=0.708633	mAP=0.646448
+INFO:root:Epoch[0] Batch [1300]	Speed: 71.86 samples/sec	pedestrian=0.733166	head=0.533947	head-shouler=0.611501	upper-body=0.708800	mAP=0.646853
+INFO:root:Epoch[0] Batch [1320]	Speed: 98.48 samples/sec	pedestrian=0.734091	head=0.535139	head-shouler=0.612518	upper-body=0.709776	mAP=0.647881
+INFO:root:Epoch[0] Batch [1340]	Speed: 92.83 samples/sec	pedestrian=0.735466	head=0.535827	head-shouler=0.615296	upper-body=0.709894	mAP=0.649121
+INFO:root:Epoch[0] Batch [1360]	Speed: 69.21 samples/sec	pedestrian=0.735507	head=0.536438	head-shouler=0.615440	upper-body=0.710365	mAP=0.649438
+INFO:root:Epoch[0] Batch [1380]	Speed: 67.03 samples/sec	pedestrian=0.737019	head=0.534969	head-shouler=0.615251	upper-body=0.710748	mAP=0.649497
+INFO:root:Epoch[0] Batch [1400]	Speed: 84.62 samples/sec	pedestrian=0.737523	head=0.535561	head-shouler=0.616400	upper-body=0.712148	mAP=0.650408
+INFO:root:Epoch[0] Batch [1420]	Speed: 94.51 samples/sec	pedestrian=0.739351	head=0.535240	head-shouler=0.616439	upper-body=0.713449	mAP=0.651120
+INFO:root:Epoch[0] Batch [1440]	Speed: 70.40 samples/sec	pedestrian=0.740204	head=0.535194	head-shouler=0.616665	upper-body=0.714028	mAP=0.651522
+INFO:root:Epoch[0] Batch [1460]	Speed: 91.42 samples/sec	pedestrian=0.740933	head=0.536216	head-shouler=0.617522	upper-body=0.715178	mAP=0.652462
+INFO:root:Epoch[0] Batch [1480]	Speed: 79.69 samples/sec	pedestrian=0.740252	head=0.533813	head-shouler=0.615384	upper-body=0.713757	mAP=0.650801
+INFO:root:Epoch[0] Batch [1500]	Speed: 63.77 samples/sec	pedestrian=0.740974	head=0.533669	head-shouler=0.616480	upper-body=0.715018	mAP=0.651535
+INFO:root:Epoch[0] Batch [1520]	Speed: 76.52 samples/sec	pedestrian=0.741054	head=0.533779	head-shouler=0.616731	upper-body=0.715492	mAP=0.651764
+INFO:root:Epoch[0] Batch [1540]	Speed: 73.45 samples/sec	pedestrian=0.738053	head=0.534050	head-shouler=0.616493	upper-body=0.715339	mAP=0.650984
+INFO:root:Epoch[0] Batch [1560]	Speed: 70.30 samples/sec	pedestrian=0.737447	head=0.532749	head-shouler=0.614509	upper-body=0.714446	mAP=0.649788
+INFO:root:Epoch[0] Batch [1580]	Speed: 77.25 samples/sec	pedestrian=0.735495	head=0.530258	head-shouler=0.613399	upper-body=0.713019	mAP=0.648043
+INFO:root:Epoch[0] Batch [1600]	Speed: 60.56 samples/sec	pedestrian=0.733422	head=0.529436	head-shouler=0.612520	upper-body=0.712569	mAP=0.646987
+INFO:root:Epoch[0] Batch [1620]	Speed: 56.78 samples/sec	pedestrian=0.731513	head=0.526316	head-shouler=0.611716	upper-body=0.710614	mAP=0.645040
+INFO:root:Epoch[0] Batch [1640]	Speed: 76.14 samples/sec	pedestrian=0.731945	head=0.525899	head-shouler=0.611708	upper-body=0.710110	mAP=0.644916
+INFO:root:Epoch[0] Batch [1660]	Speed: 76.32 samples/sec	pedestrian=0.732442	head=0.526922	head-shouler=0.612269	upper-body=0.711671	mAP=0.645826
+INFO:root:Epoch[0] Batch [1680]	Speed: 76.82 samples/sec	pedestrian=0.733114	head=0.527014	head-shouler=0.612443	upper-body=0.712250	mAP=0.646205
+INFO:root:Epoch[0] Batch [1700]	Speed: 62.65 samples/sec	pedestrian=0.732739	head=0.527575	head-shouler=0.612345	upper-body=0.712307	mAP=0.646241
+INFO:root:Epoch[0] Batch [1720]	Speed: 68.82 samples/sec	pedestrian=0.733462	head=0.528839	head-shouler=0.613504	upper-body=0.713407	mAP=0.647303
+INFO:root:Epoch[0] Batch [1740]	Speed: 69.39 samples/sec	pedestrian=0.733862	head=0.528113	head-shouler=0.612006	upper-body=0.712368	mAP=0.646587
+INFO:root:Epoch[0] Batch [1760]	Speed: 64.54 samples/sec	pedestrian=0.734516	head=0.528341	head-shouler=0.612374	upper-body=0.712696	mAP=0.646982
+INFO:root:Epoch[0] Batch [1780]	Speed: 73.52 samples/sec	pedestrian=0.733717	head=0.528935	head-shouler=0.611836	upper-body=0.712496	mAP=0.646746
+INFO:root:Epoch[0] Batch [1800]	Speed: 77.63 samples/sec	pedestrian=0.734374	head=0.529017	head-shouler=0.612651	upper-body=0.713636	mAP=0.647420
+INFO:root:Epoch[0] Batch [1820]	Speed: 64.67 samples/sec	pedestrian=0.734583	head=0.529103	head-shouler=0.613042	upper-body=0.714120	mAP=0.647712
+INFO:root:Epoch[0] Batch [1840]	Speed: 69.74 samples/sec	pedestrian=0.734261	head=0.529420	head-shouler=0.612912	upper-body=0.714437	mAP=0.647758
+INFO:root:Epoch[0] Batch [1860]	Speed: 71.90 samples/sec	pedestrian=0.734540	head=0.529239	head-shouler=0.614386	upper-body=0.714086	mAP=0.648062
+INFO:root:Epoch[0] Batch [1880]	Speed: 73.23 samples/sec	pedestrian=0.734671	head=0.529482	head-shouler=0.613939	upper-body=0.714356	mAP=0.648112
+INFO:root:Epoch[0] Batch [1900]	Speed: 63.27 samples/sec	pedestrian=0.734807	head=0.529574	head-shouler=0.613857	upper-body=0.714599	mAP=0.648209
+INFO:root:Epoch[0] Batch [1920]	Speed: 83.32 samples/sec	pedestrian=0.734813	head=0.529004	head-shouler=0.613154	upper-body=0.714280	mAP=0.647813
+INFO:root:Epoch[0] Batch [1940]	Speed: 69.61 samples/sec	pedestrian=0.735002	head=0.528649	head-shouler=0.613407	upper-body=0.714396	mAP=0.647863
+INFO:root:Epoch[0] Batch [1960]	Speed: 69.01 samples/sec	pedestrian=0.735529	head=0.528217	head-shouler=0.613918	upper-body=0.714238	mAP=0.647975
+INFO:root:Epoch[0] Batch [1980]	Speed: 79.40 samples/sec	pedestrian=0.736634	head=0.526589	head-shouler=0.614228	upper-body=0.713886	mAP=0.647834
+INFO:root:Epoch[0] Batch [2000]	Speed: 78.60 samples/sec	pedestrian=0.737331	head=0.527260	head-shouler=0.615269	upper-body=0.714702	mAP=0.648641
+INFO:root:Epoch[0] Batch [2020]	Speed: 72.15 samples/sec	pedestrian=0.738149	head=0.527042	head-shouler=0.615190	upper-body=0.714338	mAP=0.648680
+INFO:root:Epoch[0] Batch [2040]	Speed: 75.36 samples/sec	pedestrian=0.737277	head=0.525633	head-shouler=0.614287	upper-body=0.714660	mAP=0.647964
+INFO:root:Epoch[0] Batch [2060]	Speed: 77.09 samples/sec	pedestrian=0.736166	head=0.524794	head-shouler=0.614904	upper-body=0.714058	mAP=0.647481
+INFO:root:Epoch[0] Batch [2080]	Speed: 63.27 samples/sec	pedestrian=0.735747	head=0.523368	head-shouler=0.614552	upper-body=0.714145	mAP=0.646953
+INFO:root:Epoch[0] Batch [2100]	Speed: 73.64 samples/sec	pedestrian=0.736651	head=0.524475	head-shouler=0.616154	upper-body=0.714827	mAP=0.648027
+INFO:root:Epoch[0] Batch [2120]	Speed: 77.75 samples/sec	pedestrian=0.737382	head=0.524434	head-shouler=0.617353	upper-body=0.715576	mAP=0.648686
+INFO:root:Epoch[0] Batch [2140]	Speed: 59.88 samples/sec	pedestrian=0.737216	head=0.523891	head-shouler=0.617833	upper-body=0.715758	mAP=0.648675
+INFO:root:Epoch[0] Batch [2160]	Speed: 84.32 samples/sec	pedestrian=0.737190	head=0.523991	head-shouler=0.618025	upper-body=0.715982	mAP=0.648797
+INFO:root:Epoch[0] Batch [2180]	Speed: 84.56 samples/sec	pedestrian=0.737263	head=0.523258	head-shouler=0.619017	upper-body=0.715977	mAP=0.648879
+INFO:root:Epoch[0] Batch [2200]	Speed: 65.33 samples/sec	pedestrian=0.737815	head=0.523149	head-shouler=0.619502	upper-body=0.716341	mAP=0.649202
+INFO:root:Epoch[0] Batch [2220]	Speed: 84.46 samples/sec	pedestrian=0.738877	head=0.523555	head-shouler=0.619612	upper-body=0.716384	mAP=0.649607
+INFO:root:Epoch[0] Batch [2240]	Speed: 84.54 samples/sec	pedestrian=0.739471	head=0.523928	head-shouler=0.619868	upper-body=0.716997	mAP=0.650066
+INFO:root:Epoch[0] Batch [2260]	Speed: 71.26 samples/sec	pedestrian=0.740061	head=0.523757	head-shouler=0.620053	upper-body=0.717369	mAP=0.650310
+INFO:root:Epoch[0] Batch [2280]	Speed: 84.12 samples/sec	pedestrian=0.740238	head=0.524196	head-shouler=0.620629	upper-body=0.717925	mAP=0.650747
+INFO:root:Epoch[0] Batch [2300]	Speed: 63.66 samples/sec	pedestrian=0.741426	head=0.523631	head-shouler=0.621207	upper-body=0.717793	mAP=0.651014
+INFO:root:Epoch[0] Batch [2320]	Speed: 76.22 samples/sec	pedestrian=0.741116	head=0.522250	head-shouler=0.620717	upper-body=0.717126	mAP=0.650302
+INFO:root:Epoch[0] Batch [2340]	Speed: 74.40 samples/sec	pedestrian=0.741039	head=0.522838	head-shouler=0.620694	upper-body=0.717725	mAP=0.650574
+INFO:root:Epoch[0] Batch [2360]	Speed: 76.28 samples/sec	pedestrian=0.741046	head=0.522649	head-shouler=0.620723	upper-body=0.717449	mAP=0.650467
+INFO:root:Epoch[0] Batch [2380]	Speed: 67.25 samples/sec	pedestrian=0.740502	head=0.523064	head-shouler=0.620860	upper-body=0.717372	mAP=0.650450
+INFO:root:Epoch[0] Batch [2400]	Speed: 74.78 samples/sec	pedestrian=0.739951	head=0.522889	head-shouler=0.620830	upper-body=0.716880	mAP=0.650137
+INFO:root:Epoch[0] Batch [2420]	Speed: 79.33 samples/sec	pedestrian=0.740628	head=0.523042	head-shouler=0.621205	upper-body=0.717194	mAP=0.650518
+INFO:root:Epoch[0] Batch [2440]	Speed: 79.89 samples/sec	pedestrian=0.741132	head=0.523522	head-shouler=0.621433	upper-body=0.717399	mAP=0.650871
+INFO:root:Epoch[0] Batch [2460]	Speed: 77.08 samples/sec	pedestrian=0.741148	head=0.522528	head-shouler=0.621041	upper-body=0.717494	mAP=0.650553
+INFO:root:Epoch[0] Batch [2480]	Speed: 60.77 samples/sec	pedestrian=0.740322	head=0.521916	head-shouler=0.620922	upper-body=0.716908	mAP=0.650017
+INFO:root:Epoch[0] Batch [2500]	Speed: 57.76 samples/sec	pedestrian=0.737976	head=0.521198	head-shouler=0.620010	upper-body=0.715552	mAP=0.648684
+INFO:root:Epoch[0] Batch [2520]	Speed: 59.44 samples/sec	pedestrian=0.737505	head=0.521411	head-shouler=0.620348	upper-body=0.715256	mAP=0.648630
+INFO:root:Epoch[0] Batch [2540]	Speed: 62.75 samples/sec	pedestrian=0.736459	head=0.521671	head-shouler=0.619951	upper-body=0.714644	mAP=0.648181
+INFO:root:Epoch[0] Batch [2560]	Speed: 57.87 samples/sec	pedestrian=0.736283	head=0.522075	head-shouler=0.620188	upper-body=0.714823	mAP=0.648342
+INFO:root:Epoch[0] Batch [2580]	Speed: 58.00 samples/sec	pedestrian=0.736331	head=0.522362	head-shouler=0.620252	upper-body=0.714998	mAP=0.648486
+INFO:root:Epoch[0] Batch [2600]	Speed: 49.00 samples/sec	pedestrian=0.735431	head=0.523448	head-shouler=0.620992	upper-body=0.715016	mAP=0.648722
+INFO:root:Epoch[0] Batch [2620]	Speed: 55.74 samples/sec	pedestrian=0.734681	head=0.524075	head-shouler=0.621557	upper-body=0.715145	mAP=0.648865
+INFO:root:Epoch[0] Batch [2640]	Speed: 58.91 samples/sec	pedestrian=0.733921	head=0.525024	head-shouler=0.621997	upper-body=0.715150	mAP=0.649023
+INFO:root:Epoch[0] Batch [2660]	Speed: 57.82 samples/sec	pedestrian=0.732527	head=0.524923	head-shouler=0.621904	upper-body=0.714484	mAP=0.648460
+INFO:root:Epoch[0] Batch [2680]	Speed: 54.60 samples/sec	pedestrian=0.731459	head=0.524887	head-shouler=0.621853	upper-body=0.713874	mAP=0.648018
+INFO:root:Epoch[0] Batch [2700]	Speed: 50.59 samples/sec	pedestrian=0.729205	head=0.524345	head-shouler=0.621516	upper-body=0.712965	mAP=0.647008
+INFO:root:Epoch[0] Batch [2720]	Speed: 62.82 samples/sec	pedestrian=0.724842	head=0.524274	head-shouler=0.621047	upper-body=0.710510	mAP=0.645169
+INFO:root:Epoch[0] Batch [2740]	Speed: 67.96 samples/sec	pedestrian=0.722730	head=0.523501	head-shouler=0.621247	upper-body=0.709255	mAP=0.644183
+INFO:root:Epoch[0] Batch [2760]	Speed: 56.88 samples/sec	pedestrian=0.711341	head=0.520859	head-shouler=0.617691	upper-body=0.705013	mAP=0.638726
+INFO:root:Epoch[0] Batch [2780]	Speed: 56.62 samples/sec	pedestrian=0.706272	head=0.517484	head-shouler=0.613999	upper-body=0.701273	mAP=0.634757
+INFO:root:Epoch[0] Batch [2800]	Speed: 53.51 samples/sec	pedestrian=0.705073	head=0.516969	head-shouler=0.613010	upper-body=0.700158	mAP=0.633802
+INFO:root:Epoch[0] Batch [2820]	Speed: 58.79 samples/sec	pedestrian=0.703255	head=0.517427	head-shouler=0.613497	upper-body=0.699183	mAP=0.633340
+INFO:root:Epoch[0] Batch [2840]	Speed: 61.12 samples/sec	pedestrian=0.702153	head=0.518364	head-shouler=0.613866	upper-body=0.698634	mAP=0.633254
+INFO:root:Epoch[0] Batch [2860]	Speed: 65.14 samples/sec	pedestrian=0.700414	head=0.517072	head-shouler=0.613347	upper-body=0.697919	mAP=0.632188
+INFO:root:Epoch[0] Batch [2880]	Speed: 67.55 samples/sec	pedestrian=0.699567	head=0.516320	head-shouler=0.612991	upper-body=0.697260	mAP=0.631534
+INFO:root:Epoch[0] Batch [2900]	Speed: 58.19 samples/sec	pedestrian=0.697425	head=0.514717	head-shouler=0.611976	upper-body=0.695248	mAP=0.629841
+INFO:root:Epoch[0] Batch [2920]	Speed: 57.09 samples/sec	pedestrian=0.695959	head=0.514460	head-shouler=0.611087	upper-body=0.694090	mAP=0.628899
+INFO:root:Epoch[0] Batch [2940]	Speed: 62.42 samples/sec	pedestrian=0.693870	head=0.514228	head-shouler=0.611149	upper-body=0.693631	mAP=0.628220
+INFO:root:Epoch[0] Batch [2960]	Speed: 59.72 samples/sec	pedestrian=0.693761	head=0.514479	head-shouler=0.610860	upper-body=0.693302	mAP=0.628101
+INFO:root:Epoch[0] Batch [2980]	Speed: 65.10 samples/sec	pedestrian=0.693136	head=0.515135	head-shouler=0.611258	upper-body=0.693410	mAP=0.628234
+INFO:root:Epoch[0] Batch [3000]	Speed: 55.16 samples/sec	pedestrian=0.692660	head=0.515475	head-shouler=0.611833	upper-body=0.693106	mAP=0.628268
+INFO:root:Epoch[0] Batch [3020]	Speed: 63.74 samples/sec	pedestrian=0.692411	head=0.515778	head-shouler=0.612543	upper-body=0.692843	mAP=0.628394
+INFO:root:Epoch[0] Batch [3040]	Speed: 56.08 samples/sec	pedestrian=0.691846	head=0.515731	head-shouler=0.612044	upper-body=0.692473	mAP=0.628023
+INFO:root:Epoch[0] Batch [3060]	Speed: 61.91 samples/sec	pedestrian=0.691322	head=0.516678	head-shouler=0.612271	upper-body=0.692455	mAP=0.628181
+INFO:root:Epoch[0] Batch [3080]	Speed: 69.47 samples/sec	pedestrian=0.690310	head=0.517315	head-shouler=0.612811	upper-body=0.692563	mAP=0.628250
+INFO:root:Epoch[0] Batch [3100]	Speed: 64.41 samples/sec	pedestrian=0.689527	head=0.517240	head-shouler=0.612341	upper-body=0.692215	mAP=0.627831
+INFO:root:Epoch[0] Batch [3120]	Speed: 57.74 samples/sec	pedestrian=0.689116	head=0.516826	head-shouler=0.611799	upper-body=0.691754	mAP=0.627374
+INFO:root:Epoch[0] Batch [3140]	Speed: 62.77 samples/sec	pedestrian=0.688455	head=0.517197	head-shouler=0.611945	upper-body=0.691135	mAP=0.627183
+INFO:root:Epoch[0] Batch [3160]	Speed: 64.44 samples/sec	pedestrian=0.687834	head=0.517855	head-shouler=0.612355	upper-body=0.691260	mAP=0.627326
+INFO:root:Epoch[0] Batch [3180]	Speed: 68.10 samples/sec	pedestrian=0.686604	head=0.517665	head-shouler=0.611793	upper-body=0.690834	mAP=0.626724
+INFO:root:Epoch[0] Batch [3200]	Speed: 62.61 samples/sec	pedestrian=0.685726	head=0.517840	head-shouler=0.611829	upper-body=0.690657	mAP=0.626513
+INFO:root:Epoch[0] Batch [3220]	Speed: 64.19 samples/sec	pedestrian=0.685252	head=0.518020	head-shouler=0.612155	upper-body=0.690114	mAP=0.626385
+INFO:root:Epoch[0] Batch [3240]	Speed: 62.94 samples/sec	pedestrian=0.685076	head=0.518501	head-shouler=0.612350	upper-body=0.690074	mAP=0.626500
+INFO:root:Epoch[0] Batch [3260]	Speed: 62.28 samples/sec	pedestrian=0.684343	head=0.518011	head-shouler=0.611547	upper-body=0.689568	mAP=0.625867
+INFO:root:Epoch[0] Batch [3280]	Speed: 57.37 samples/sec	pedestrian=0.682290	head=0.516360	head-shouler=0.610172	upper-body=0.688300	mAP=0.624281
+INFO:root:Epoch[0] Batch [3300]	Speed: 62.12 samples/sec	pedestrian=0.681075	head=0.520343	head-shouler=0.610981	upper-body=0.688178	mAP=0.625144
+INFO:root:Epoch[0] Batch [3320]	Speed: 57.74 samples/sec	pedestrian=0.681289	head=0.521501	head-shouler=0.611561	upper-body=0.688451	mAP=0.625700
+INFO:root:Epoch[0] Batch [3340]	Speed: 49.75 samples/sec	pedestrian=0.681924	head=0.522850	head-shouler=0.612099	upper-body=0.688611	mAP=0.626371
+INFO:root:Epoch[0] Batch [3360]	Speed: 58.88 samples/sec	pedestrian=0.681215	head=0.524196	head-shouler=0.612316	upper-body=0.687593	mAP=0.626330
+INFO:root:Epoch[0] Batch [3380]	Speed: 57.01 samples/sec	pedestrian=0.680341	head=0.523681	head-shouler=0.612040	upper-body=0.687012	mAP=0.625769
+INFO:root:Epoch[0] Batch [3400]	Speed: 58.47 samples/sec	pedestrian=0.679934	head=0.524876	head-shouler=0.611910	upper-body=0.686826	mAP=0.625887
+INFO:root:Epoch[0] Batch [3420]	Speed: 61.14 samples/sec	pedestrian=0.679773	head=0.524954	head-shouler=0.612084	upper-body=0.686531	mAP=0.625835
+INFO:root:Epoch[0] Batch [3440]	Speed: 57.53 samples/sec	pedestrian=0.679030	head=0.526062	head-shouler=0.612352	upper-body=0.686463	mAP=0.625977
+INFO:root:Epoch[0] Batch [3460]	Speed: 62.51 samples/sec	pedestrian=0.679096	head=0.526683	head-shouler=0.612574	upper-body=0.686559	mAP=0.626228
+INFO:root:Epoch[0] Batch [3480]	Speed: 55.73 samples/sec	pedestrian=0.675865	head=0.525398	head-shouler=0.611264	upper-body=0.685378	mAP=0.624476
+INFO:root:Epoch[0] Batch [3500]	Speed: 59.63 samples/sec	pedestrian=0.675937	head=0.526681	head-shouler=0.611484	upper-body=0.685594	mAP=0.624924
+pedestrian: 0.67537483309
+head: 0.526933992297
+head-shouler: 0.611554940635
+upper-body: 0.685559289642
+mAP: 0.624855763916

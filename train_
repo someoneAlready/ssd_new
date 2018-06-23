@@ -1,0 +1,85 @@
+digraph plot {
+	data [label="data
+null" fillcolor="#8dd3c7" fixedsize=false height=0.8034 hide_weights=true shape=oval style=filled width=1.3]
+	conv_1_conv2d [label="conv_1_conv2d
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 hide_weights=true shape=oval style=filled width=1.3]
+	conv_1_conv2d_cls_pred_conv [label="conv_1_conv2d_cls_pred_conv
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 hide_weights=true shape=oval style=filled width=1.3]
+	transpose1 [label="transpose1
+transpose" fillcolor="#fccde5" fixedsize=false height=0.8034 hide_weights=true shape=oval style=filled width=1.3]
+	flatten1 [label="flatten1
+Flatten" fillcolor="#fdb462" fixedsize=false height=0.8034 hide_weights=true shape=oval style=filled width=1.3]
+	concat0 [label="concat0
+Concat" fillcolor="#fdb462" fixedsize=false height=0.8034 hide_weights=true shape=oval style=filled width=1.3]
+	reshape0 [label="reshape0
+Reshape" fillcolor="#fdb462" fixedsize=false height=0.8034 hide_weights=true shape=oval style=filled width=1.3]
+	multibox_cls_pred [label="multibox_cls_pred
+transpose" fillcolor="#fccde5" fixedsize=false height=0.8034 hide_weights=true shape=oval style=filled width=1.3]
+	conv_1_conv2d_anchors [label="conv_1_conv2d_anchors
+_contrib_MultiBoxPrior" fillcolor="#fccde5" fixedsize=false height=0.8034 hide_weights=true shape=oval style=filled width=1.3]
+	flatten2 [label="flatten2
+Flatten" fillcolor="#fdb462" fixedsize=false height=0.8034 hide_weights=true shape=oval style=filled width=1.3]
+	concat1 [label="concat1
+Concat" fillcolor="#fdb462" fixedsize=false height=0.8034 hide_weights=true shape=oval style=filled width=1.3]
+	multibox_anchors [label="multibox_anchors
+Reshape" fillcolor="#fdb462" fixedsize=false height=0.8034 hide_weights=true shape=oval style=filled width=1.3]
+	label [label="label
+null" fillcolor="#8dd3c7" fixedsize=false height=0.8034 hide_weights=true shape=oval style=filled width=1.3]
+	multibox_target [label="multibox_target
+_contrib_MultiBoxTarget" fillcolor="#fccde5" fixedsize=false height=0.8034 hide_weights=true shape=oval style=filled width=1.3]
+	cls_prob [label="cls_prob
+SoftmaxOutput" fillcolor="#fccde5" fixedsize=false height=0.8034 hide_weights=true shape=oval style=filled width=1.3]
+	conv_1_conv2d_loc_pred_conv [label="conv_1_conv2d_loc_pred_conv
+Convolution" fillcolor="#fb8072" fixedsize=false height=0.8034 hide_weights=true shape=oval style=filled width=1.3]
+	transpose0 [label="transpose0
+transpose" fillcolor="#fccde5" fixedsize=false height=0.8034 hide_weights=true shape=oval style=filled width=1.3]
+	flatten0 [label="flatten0
+Flatten" fillcolor="#fdb462" fixedsize=false height=0.8034 hide_weights=true shape=oval style=filled width=1.3]
+	multibox_loc_pred [label="multibox_loc_pred
+Concat" fillcolor="#fdb462" fixedsize=false height=0.8034 hide_weights=true shape=oval style=filled width=1.3]
+	_minus0 [label="_minus0
+elemwise_sub" fillcolor="#fccde5" fixedsize=false height=0.8034 hide_weights=true shape=oval style=filled width=1.3]
+	_mul0 [label="_mul0
+elemwise_mul" fillcolor="#fccde5" fixedsize=false height=0.8034 hide_weights=true shape=oval style=filled width=1.3]
+	loc_loss_ [label="loc_loss_
+smooth_l1" fillcolor="#fccde5" fixedsize=false height=0.8034 hide_weights=true shape=oval style=filled width=1.3]
+	loc_loss [label="loc_loss
+MakeLoss" fillcolor="#fccde5" fixedsize=false height=0.8034 hide_weights=true shape=oval style=filled width=1.3]
+	cls_label [label="cls_label
+MakeLoss" fillcolor="#fccde5" fixedsize=false height=0.8034 hide_weights=true shape=oval style=filled width=1.3]
+	detection [label="detection
+_contrib_MultiBoxDetection" fillcolor="#fccde5" fixedsize=false height=0.8034 hide_weights=true shape=oval style=filled width=1.3]
+	det_out [label="det_out
+MakeLoss" fillcolor="#fccde5" fixedsize=false height=0.8034 hide_weights=true shape=oval style=filled width=1.3]
+	conv_1_conv2d -> data [arrowtail=open dir=back]
+	conv_1_conv2d_cls_pred_conv -> conv_1_conv2d [arrowtail=open dir=back]
+	transpose1 -> conv_1_conv2d_cls_pred_conv [arrowtail=open dir=back]
+	flatten1 -> transpose1 [arrowtail=open dir=back]
+	concat0 -> flatten1 [arrowtail=open dir=back]
+	reshape0 -> concat0 [arrowtail=open dir=back]
+	multibox_cls_pred -> reshape0 [arrowtail=open dir=back]
+	conv_1_conv2d_anchors -> conv_1_conv2d [arrowtail=open dir=back]
+	flatten2 -> conv_1_conv2d_anchors [arrowtail=open dir=back]
+	concat1 -> flatten2 [arrowtail=open dir=back]
+	multibox_anchors -> concat1 [arrowtail=open dir=back]
+	multibox_target -> multibox_anchors [arrowtail=open dir=back]
+	multibox_target -> label [arrowtail=open dir=back]
+	multibox_target -> multibox_cls_pred [arrowtail=open dir=back]
+	cls_prob -> multibox_cls_pred [arrowtail=open dir=back]
+	cls_prob -> multibox_target [arrowtail=open dir=back]
+	conv_1_conv2d_loc_pred_conv -> conv_1_conv2d [arrowtail=open dir=back]
+	transpose0 -> conv_1_conv2d_loc_pred_conv [arrowtail=open dir=back]
+	flatten0 -> transpose0 [arrowtail=open dir=back]
+	multibox_loc_pred -> flatten0 [arrowtail=open dir=back]
+	_minus0 -> multibox_loc_pred [arrowtail=open dir=back]
+	_minus0 -> multibox_target [arrowtail=open dir=back]
+	_mul0 -> multibox_target [arrowtail=open dir=back]
+	_mul0 -> _minus0 [arrowtail=open dir=back]
+	loc_loss_ -> _mul0 [arrowtail=open dir=back]
+	loc_loss -> loc_loss_ [arrowtail=open dir=back]
+	cls_label -> multibox_target [arrowtail=open dir=back]
+	detection -> cls_prob [arrowtail=open dir=back]
+	detection -> multibox_loc_pred [arrowtail=open dir=back]
+	detection -> multibox_anchors [arrowtail=open dir=back]
+	det_out -> detection [arrowtail=open dir=back]
+}

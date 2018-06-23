@@ -1,0 +1,41 @@
+network=pvanet
+args.rec_path=/media/cgangee/OTHERS/mxnet-ssd/data/psdb/val.rec
+num_class=4
+args.mean_r=123
+args.mean_g=117
+args.mean_b=104
+args.data_shape=300
+prefix=/media/cgangee/OTHERS/mxnet-ssd/output/psdbPvanet/ssd
+args.epoch=240
+ctx=[gpu(0)]
+batch_size=1
+path_imglist=
+nms_thresh=0.45
+force_nms=False
+ovp_thresh=0.5
+use_difficult=False
+class_names=['pedestrian', 'head', 'head-shouler', 'upper-body']
+voc07_metric=True
+frequent=20
+[18:20:46] src/io/iter_image_det_recordio.cc:281: ImageDetRecordIOParser: /media/cgangee/OTHERS/mxnet-ssd/data/psdb/val.rec, use 7 threads for decoding..
+[18:20:46] src/io/iter_image_det_recordio.cc:334: ImageDetRecordIOParser: /media/cgangee/OTHERS/mxnet-ssd/data/psdb/val.rec, label padding width: 506
+[18:20:46] src/nnvm/legacy_json_util.cc:190: Loading symbol saved by previous version v0.12.0. Attempting to upgrade...
+[18:20:46] src/nnvm/legacy_json_util.cc:198: Symbol successfully upgraded!
+[18:20:47] src/operator/nn/./cudnn/./cudnn_algoreg-inl.h:107: Running performance tests to find the best convolution algorithm, this can take a while... (setting env variable MXNET_CUDNN_AUTOTUNE_DEFAULT to 0 to disable)
+INFO:root:Epoch[0] Batch [20]	Speed: 15.54 samples/sec	pedestrian=0.791027	head=0.418470	head-shouler=0.602833	upper-body=0.754417	mAP=0.641687
+INFO:root:Epoch[0] Batch [40]	Speed: 15.96 samples/sec	pedestrian=0.836210	head=0.561945	head-shouler=0.714391	upper-body=0.806892	mAP=0.729859
+INFO:root:Epoch[0] Batch [60]	Speed: 15.49 samples/sec	pedestrian=0.711589	head=0.430398	head-shouler=0.527154	upper-body=0.649697	mAP=0.579709
+INFO:root:Epoch[0] Batch [80]	Speed: 16.10 samples/sec	pedestrian=0.655125	head=0.412313	head-shouler=0.474405	upper-body=0.633137	mAP=0.543745
+INFO:root:Epoch[0] Batch [100]	Speed: 16.42 samples/sec	pedestrian=0.682144	head=0.416172	head-shouler=0.520438	upper-body=0.657576	mAP=0.569083
+INFO:root:Epoch[0] Batch [120]	Speed: 16.07 samples/sec	pedestrian=0.713297	head=0.421077	head-shouler=0.538167	upper-body=0.704140	mAP=0.594170
+INFO:root:Epoch[0] Batch [140]	Speed: 15.75 samples/sec	pedestrian=0.732078	head=0.429830	head-shouler=0.565663	upper-body=0.726667	mAP=0.613560
+INFO:root:Epoch[0] Batch [160]	Speed: 15.55 samples/sec	pedestrian=0.733908	head=0.446568	head-shouler=0.571122	upper-body=0.738672	mAP=0.622568
+INFO:root:Epoch[0] Batch [180]	Speed: 16.21 samples/sec	pedestrian=0.752707	head=0.445472	head-shouler=0.607834	upper-body=0.742688	mAP=0.637175
+INFO:root:Epoch[0] Batch [200]	Speed: 16.09 samples/sec	pedestrian=0.753301	head=0.444961	head-shouler=0.606993	upper-body=0.743037	mAP=0.637073
+INFO:root:Epoch[0] Batch [220]	Speed: 16.10 samples/sec	pedestrian=0.765507	head=0.445864	head-shouler=0.612747	upper-body=0.747115	mAP=0.642808
+INFO:root:Epoch[0] Batch [240]	Speed: 16.87 samples/sec	pedestrian=0.750368	head=0.432192	head-shouler=0.607772	upper-body=0.745952	mAP=0.634071
+INFO:root:Epoch[0] Batch [260]	Speed: 16.06 samples/sec	pedestrian=0.756627	head=0.428834	head-shouler=0.611325	upper-body=0.746758	mAP=0.635886
+INFO:root:Epoch[0] Batch [280]	Speed: 15.81 samples/sec	pedestrian=0.758609	head=0.426528	head-shouler=0.612990	upper-body=0.749784	mAP=0.636978
+INFO:root:Epoch[0] Batch [300]	Speed: 15.56 samples/sec	pedestrian=0.764139	head=0.432511	head-shouler=0.621478	upper-body=0.753418	mAP=0.642887
+INFO:root:Epoch[0] Batch [320]	Speed: 16.22 samples/sec	pedestrian=0.770124	head=0.445785	head-shouler=0.627030	upper-body=0.755713	mAP=0.649663
+INFO:root:Epoch[0] Batch [340]	Speed: 15.77 samples/sec	pedestrian=0.772292	head=0.458514	head-shouler=0.633348	upper-body=0.757871	mAP=0.655506
